@@ -6355,6 +6355,7 @@ ul.footer-social li a:hover {
 
 .top-bar-top {
 background-color: maroon;
+box-shadow: 0px 1px 1px black;
 
 }
 
@@ -6403,7 +6404,69 @@ background-color: maroon;
   font-weight: 900;
 }
 
+/*اخبار مصر*/
 .h-newsmasr{
   height: 224.81px;
 }
+.color-cod-gray:after{
+  background-color: maroon;
+}
+.color-cod-gray:before {
+  border-top: 8px solid maroon;
+}
+/*===================*/
 
+
+/*احزاب و نواب*/
+.h-a7zab1{
+  height: 200px;
+}
+.h-a7zab2{
+  height: 69px;
+  width: 94px;
+}
+.nowab-logo1{
+  height: 33px;
+  width: 40px;
+  padding-bottom: 7px;
+  margin-left: 3px;
+}
+.nowab-logo{
+  height: 33px;
+  width: 40px;
+  padding-bottom: 7px;
+  background-color: rgb(104, 101, 101);
+  margin-left: 3px;
+}
+.nowab-logo-s{
+  height: 23px;
+  width: 25px;
+  padding-bottom: 7px;
+  background-color: rgb(104, 101, 101);
+  margin-left: 3px;
+}
+.color-azure-radiance:after{
+  background-color: rgb(104, 101, 101);
+}
+.color-azure-radiance:before {
+  border-top: 8px solid rgb(104, 101, 101);
+}
+/*==================*/
+
+.asideads{
+  width: 149px;
+  height: 600px;
+  background-image: url(./img/banner/ad1.png);
+  position: fixed;
+  margin-top: 38px;
+  margin-bottom: 800px;
+}
+.asideads2{
+  right: 88.9%;
+  width: 149px;
+  height: 600px;
+  background-image: url(./img/banner/ad1.png);
+  position: fixed;
+  margin-top: 38px;
+  margin-bottom: 800px;
+}
