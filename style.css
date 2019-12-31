@@ -6496,6 +6496,33 @@ body {
 
 
 
+/*رياضة */
+.h-sport{
+  height: 506px;
+  width: 282.66px;
+}
+.h-sport-s{
+  height: 104px;
+  width: 144px;
+}
+
+.color-azure-radiance2:after {
+  background-color: green;
+}
+
+.color-azure-radiance2:before {
+  border-top: 8px solid green;
+  border-left: 8px solid transparent;
+}
+/*==================*/
+
+
+/*فتافيت ماما */
+.h-mama{
+  height: 177.77px;
+}
+
+/*==================*/
 .asideads{
   width: 149px;
   height: 600px;
