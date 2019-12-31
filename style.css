@@ -6476,6 +6476,26 @@ body {
 }
 /*==================*/
 
+
+
+/*فنون وثقافة*/
+.h-fnoon{
+  height: 176.66px;
+}
+
+.color-apple2:after {
+  background-color: red;
+}
+
+.color-apple2:before {
+  border-top: 8px solid red;
+  border-left: 8px solid transparent;
+}
+/*==================*/
+
+
+
+
 .asideads{
   width: 149px;
   height: 600px;
