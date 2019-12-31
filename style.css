@@ -6521,8 +6521,30 @@ body {
 .h-mama{
   height: 177.77px;
 }
+.h-mama-s{
+  height: 69px;
+  width: 94px;
+}
+.color-apple3:after {
+  background-color: rgb(243, 80, 135);
+}
 
+.color-apple3:before {
+  border-top: 8px solid rgb(243, 80, 135);
+  border-left: 8px solid transparent;
+}
 /*==================*/
+
+/*فتافيت ماما */
+.h-report{
+  height: 137px;
+}
+.h-report-p{
+  height: 144px;
+}
+/*==================*/
+
+
 .asideads{
   width: 149px;
   height: 600px;
