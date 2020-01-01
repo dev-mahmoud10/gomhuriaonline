@@ -6389,9 +6389,7 @@ body {
   }
 }
 
-.item-box-light-md-less30 {
-  padding-top: 0px;
-}
+
 
 .box-shadow-0{
   box-shadow: 0px 0px 0px 0px rgba(225, 225, 225, 0.75);
@@ -6535,7 +6533,7 @@ body {
 }
 /*==================*/
 
-/*فتافيت ماما */
+/*تقارير */
 .h-report{
   height: 137px;
 }
@@ -6545,7 +6543,7 @@ body {
 /*==================*/
 
 
-/*فتافيت ماما */
+/*محافظات */
 .h-govern{
   height: 182.78px;
 }
@@ -6554,6 +6552,8 @@ body {
   width: 94px;
 }
 /*==================*/
+
+
 
 .asideads{
   width: 149px;
