@@ -6363,6 +6363,10 @@ box-shadow: 0px 1px 1px black;
 body {
   background-color: maroon;
 }
+.ne-main-menu nav ul li a:hover {
+  background-color: maroon;
+  color: white !important;
+ }
 /*==========*/
 
 
@@ -6375,7 +6379,9 @@ body {
 .header-style2 .main-menu-area .ne-main-menu nav ul li a {
   padding: 22px 13px;
 }
+
 /*=========*/
+
 
 /*slider
 .nivoSlider{
@@ -6581,7 +6587,7 @@ body {
 }
 /*==================*/
 
-/*محافظات */
+/*اخبار الطيران */
 .h-air{
   height: 400px;
 }
@@ -6608,5 +6614,5 @@ body {
   height: 600px;
   background-image: url(./img/banner/ad1.png);
   position: fixed;
-
 }
+
