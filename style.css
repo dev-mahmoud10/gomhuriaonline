@@ -6579,8 +6579,20 @@ body {
   border-top: 8px solid  rgb(9, 111, 207);
   border-left: 8px solid transparent;
 }
+/*==================*/
 
-
+/*محافظات */
+.h-air{
+  height: 400px;
+}
+.h-air-s{
+  height: 133px;
+  width: 145px;
+}
+.h-govern-s{
+  height: 69px;
+  width: 94px;
+}
 /*==================*/
 
 
