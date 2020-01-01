@@ -33,29 +33,7 @@ Author URI: https://radiustheme.com Version: 1.2
 /*=====================================
 [1] Typography 
 ======================================*/
-@font-face{
-  font-family:droid;
-
-  src: url(fonts/droid.ttf);
-}
-@font-face{
-  font-family:droid-kufi-r;
-  
-  src: url(fonts/Droid_Kufi_Regular.ttf);
-}
-@font-face{
-  font-family:droid-kufi-b;
-  
-  src: url(fonts/Droid_Kufi_Bold.ttf);
-}
-@font-face{
-  font-family:jzoor;
-  
-  src: url(fonts/jzoor.ttf);
-}
-
-
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,500,700);
 html {
   background: #ffffff;
   font-size: 62.5%;
@@ -68,7 +46,7 @@ html {
 body {
   font-size: 16px;
   line-height: 24px;
-  font-family: "jzoor",'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   vertical-align: baseline;
   background-color: #e6e8eb;
   color: #444444;
@@ -77,14 +55,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: right;
   direction: rtl;
-  background-color: maroon;
 }
 h1,
 h2,
 h3,
 h4 {
   line-height: 1.4;
-  font-family: "jzoor" , sans-serif;
+  font-family: "thesans-bold",'Roboto', sans-serif;
   margin: 0 0 20px 0;
   color: #111111;
   text-transform: capitalize;
@@ -101,10 +78,7 @@ h3 {
 p {
   line-height: 24px;
   margin: 0 0 20px 0;
-  font-family: jzoor;
 }
-
- 
 /*=====================================
 [2] Common Elements Style
 ======================================*/
@@ -1458,8 +1432,8 @@ ul.item2-inline li:last-child {
   text-align: center;
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 20px;
-  font-family: 'jzoor','Poppins', sans-serif;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
   z-index: 2;
 }
 .topic-box-lg:before {
@@ -3496,14 +3470,14 @@ div#wrapper.open > .offcanvas-mask {
   text-align: center;
 }
 .main-menu-area .ne-main-menu nav ul li {
-  text-align: right;
+  text-align: left;
   position: relative;
   display: inline-block;
 }
 .main-menu-area .ne-main-menu nav ul li a {
   color: #ffffff;
   display: block;
-  font-family: 'jzoor', 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -3835,7 +3809,7 @@ div#wrapper.open > .offcanvas-mask {
   text-align: right;
 }
 .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-  padding: 22px 13px;
+  padding: 22px 18px;
   color: #ffffff;
 }
 .header-style5 .main-menu-area .ne-main-menu nav ul li a:hover {
@@ -3854,10 +3828,7 @@ div#wrapper.open > .offcanvas-mask {
   background: #f8f8f8;
 }
 .header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a {
-  padding: 22px 15px ;
-  background-color: maroon;
-  color: white;
-  box-shadow: 0px 1px 1px black;
+  padding: 22px 18px 22px 0;
 }
 .header-style5 .main-menu-area .ne-main-menu nav ul .active a {
   color: #e53935;
@@ -3869,12 +3840,10 @@ div#wrapper.open > .offcanvas-mask {
   background-color: #111111;
 }
 .header-style5 .stick .ne-main-menu nav ul li a {
-  padding: 22px 13px;
+  padding: 22px 18px;
 }
 .header-style5 .stick .ne-main-menu nav ul li:first-child a {
-  padding: 22px 15px ;
-  background-color: maroon;
-  color: white;
+  padding: 22px 18px 22px 0;
 }
 .header-style5 .stick .container > div {
   background-color: #111111;
@@ -6337,62 +6306,82 @@ ul.footer-social li a:hover {
 
 
 
-
-
-
-
-
-
-/*gom-styles
-=============*/
-
-.bg-gray{
-  background-color: lightgray;
+/*===========================================
+gom styles:
+===========================================*/
+/*basic*/
+@font-face{
+  font-family: "thesans-plain";
+  src: url(./fonts/thesans/The-Sans-Plain.otf);
 }
-.pdtop{
-  padding-top: 50px;
+@font-face{
+  font-family: "thesans-bold";
+  src: url(./fonts/thesans/TheSans-Bold.otf);
 }
-
-
-.top-bar-top {
-background-color: maroon;
-box-shadow: 0px 1px 1px black;
+body , div, p {
+  font-family: "thesans-plain";
 }
-
+.topic-box-lg{
+  font-family: "thesans-bold";
+}
 @media (min-width: 1200px)
 {
   .container {
     max-width: 1080px; 
   }
 }
+/*=============*/
 
-.item-box-light-md-less30 {
-  padding-top: 0px;
-}
 
-.box-shadow-0{
-  box-shadow: 0px 0px 0px 0px rgba(225, 225, 225, 0.75);
+/*aside ads*/
+.asideads{
+  width: 142px;
+  height: 600px;
+  background-image: url(./img/banner/ad1.png);
+  position: fixed;
+  margin-right: 0px;
 }
+.asideads2{
+  right: 89.5%;
+  width: 142px;
+  height: 600px;
+  background-image: url(./img/banner/ad1.png);
+  position: fixed;
+}
+/*=============*/
 
-.bl-0{
-  border-left: 0px;
-}
 
-.br-0{
-  border-right: 0px;
-}
 
-.ne-main-menu nav ul li a{
-  font-family: "jzoor";
+/*header 2 area*/
+.header-style2 .main-menu-area .ne-main-menu nav ul li a{
+  font-family: "thesans-plain";
+  font-size: 16px;
 }
-.main-menu-area{
-  font-family: "jzoor"; 
+.header-style2 .main-menu-area .ne-main-menu nav ul li:first-child a{
+  padding: 22px 11px;
+  background-color: #f8f8f8;
+  color: #e53935;
 }
-
-.p-logoarea{
+.header-style2 .main-menu-area .ne-main-menu nav ul li a {
+  padding: 22px 11px;
+  color: #404553;
+}
+.ne-main-menu nav ul li a:hover {
+  background-color: #f8f8f8;
+  color: #e53935 !important;
+ }
+ .header-style2 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu  li:first-child a{
+  background-color: red !important;
+  color: white !important;
+ }
+ .main-menu-area .ne-main-menu nav ul li{
+   text-align: right;
+ }
+ .p-logoarea{
   text-align: center;
   margin: 0px;
   line-height: 20px;
+  
 }
 .editor-logoarea{
   margin-top: 10px;
@@ -6401,27 +6390,37 @@ box-shadow: 0px 1px 1px black;
   font-size: 14px;
 }
 .p-name{
-  font-weight: 900;
+  font-family: "thesans-bold";
 }
 
+.h-ads{
+  height: 80px;
+}
+.left{
+  left: 1%;
+}
+/*=============*/
+
 /*اخبار مصر*/
-.h-newsmasr{
-  height: 224.81px;
+.h-masr{
+  height: 399px;
 }
-.color-cod-gray:after{
-  background-color: maroon;
+.h-masr-s{
+  height: 110px;
+  width: 113px;
 }
-.color-cod-gray:before {
-  border-top: 8px solid maroon;
+.iso2 a {
+  padding: 5px 20px;
 }
-/*===================*/
+/*=============*/
+
 
 
 /*احزاب و نواب*/
-.h-a7zab1{
+.h-a7zab{
   height: 200px;
 }
-.h-a7zab2{
+.h-a7zab-s{
   height: 69px;
   width: 94px;
 }
@@ -6453,20 +6452,23 @@ box-shadow: 0px 1px 1px black;
 }
 /*==================*/
 
-.asideads{
-  width: 149px;
-  height: 600px;
-  background-image: url(./img/banner/ad1.png);
-  position: fixed;
-  margin-top: 38px;
-  margin-bottom: 800px;
+
+/*فنون وثقافة*/
+.h-fnoon{
+  height: 176.66px;
 }
-.asideads2{
-  right: 88.9%;
-  width: 149px;
-  height: 600px;
-  background-image: url(./img/banner/ad1.png);
-  position: fixed;
-  margin-top: 38px;
-  margin-bottom: 800px;
+
+.color-apple2:after {
+  background-color: red;
+}
+
+.color-apple2:before {
+  border-top: 8px solid red;
+  border-left: 8px solid transparent;
+}
+/*==================*/
+
+/*ads*/
+.h-w-ads{
+  width: 690px;
 }
