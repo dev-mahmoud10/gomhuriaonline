@@ -6555,6 +6555,35 @@ body {
 
 
 
+/*تكنولوجيا و اوتو */
+.color-ecstasy3:after {
+  background-color: rgb(32, 29, 29);
+}
+.color-ecstasy3:before {
+  border-top: 8px solid rgb(32, 29, 29);
+  border-left: 8px solid transparent;
+}
+.h-tech{
+  height: 177.77px;
+}
+.h-tech-s{
+  height: 69px;
+  width: 100px;
+}
+
+ 
+.color-apple:after {
+  background-color: rgb(9, 111, 207);
+}
+.color-apple:before {
+  border-top: 8px solid  rgb(9, 111, 207);
+  border-left: 8px solid transparent;
+}
+
+
+/*==================*/
+
+
 .asideads{
   width: 149px;
   height: 600px;
