@@ -6649,3 +6649,11 @@ body {
   padding: 40px 20px;
 }
 
+footer .footer-box ul.popular-categories li a{
+  font-family: "jzoor";
+}
+.h-foot{
+  height: 73px;
+  width: 100px;
+}
+
