@@ -6638,3 +6638,14 @@ body {
   width: 124px;
 }
 
+.btn-tab li a {
+  font-family: "jzoor";
+  font-size: 12px;
+  padding: 10PX 12PX;
+}
+/*================*/
+
+.section-space-default2 {
+  padding: 40px 20px;
+}
+

@@ -9,9 +9,9 @@
     }
     function formatAMPM() {
     var d = new Date(),
-        months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
-        days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-    return days[d.getDay()]+' , '+months[d.getMonth()]+' '+d.getDate()+' , '+d.getFullYear();
+        months = ['يناير','فبراير','مارس','إبريل','مايو','يونيه','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'],
+        days = ['الأحد','الأثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
+    return days[d.getDay()]+' , '+d.getDate()+' '+months[d.getMonth()]+' , '+d.getFullYear();
     }
     
     /*-------------------------------------
