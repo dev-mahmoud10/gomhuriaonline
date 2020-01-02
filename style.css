@@ -6383,11 +6383,16 @@ body {
 /*=========*/
 
 
-/*slider
-.nivoSlider{
-  height: 430px;
+/*slider*/
+.nivo-main-image{
+  height: 400px !important;
+}
+.slider-title{
+  font-family: 'jzoor';
 }
 /*==========*/
+
+
 @media (min-width: 1200px)
 {
   .container {
@@ -6601,7 +6606,7 @@ body {
 }
 /*==================*/
 
-
+/*ads*/
 .asideads{
   width: 149px;
   height: 600px;
@@ -6614,5 +6619,22 @@ body {
   height: 600px;
   background-image: url(./img/banner/ad1.png);
   position: fixed;
+}
+
+.h-ads-s{
+  height: 180px;
+}
+.w-info{
+  width: 282.66px;
+}
+/*===============*/
+
+
+/*احدث الاخبار - عمود جانبي*/
+.h-latest{
+  height: 93px;
+}
+.w-latest{
+  width: 124px;
 }
 
