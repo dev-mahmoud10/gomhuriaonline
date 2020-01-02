@@ -1,0 +1,167 @@
+
+/*===========================================
+gom styles:
+===========================================*/
+/*basic*/
+@font-face{
+    font-family: "thesans-plain";
+    src: url(./fonts/thesans/The-Sans-Plain.otf);
+  }
+  @font-face{
+    font-family: "thesans-bold";
+    src: url(./fonts/thesans/TheSans-Bold.otf);
+  }
+  body , div, p {
+    font-family: "thesans-plain";
+  }
+  .topic-box-lg{
+    font-family: "thesans-bold";
+  }
+  @media (min-width: 1200px)
+  {
+    .container {
+      max-width: 1080px; 
+    }
+  }
+  /*=============*/
+  
+  
+  /*aside ads*/
+  .asideads{
+    width: 140px;
+    height: 600px;
+    background-image: url(./img/banner/aside-ad2.jpg);
+    position: fixed;
+    margin-right: 0px;
+  }
+  .asideads2{
+    right: 89.5%;
+    width: 140px;
+    height: 600px;
+    background-image: url(./img/banner/aside-ad2.jpg);
+    position: fixed;
+  }
+  /*=============*/
+  
+  
+  
+  /*header 2 area*/
+  .header-style2 .main-menu-area .ne-main-menu nav ul li a{
+    font-family: "thesans-plain";
+    font-size: 16px;
+  }
+  .header-style2 .main-menu-area .ne-main-menu nav ul li:first-child a{
+    padding: 22px 11px;
+    background-color: #f8f8f8;
+    color: #e53935;
+  }
+  .header-style2 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 22px 11px;
+    color: #404553;
+  }
+  .ne-main-menu nav ul li a:hover {
+    background-color: #f8f8f8;
+    color: #e53935 !important;
+   }
+   .header-style2 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu  li:first-child a{
+    background-color: red !important;
+    color: white !important;
+   }
+   .main-menu-area .ne-main-menu nav ul li{
+     text-align: right;
+   }
+   .p-logoarea{
+    text-align: center;
+    margin: 0px;
+    line-height: 20px;
+    
+  }
+  .editor-logoarea{
+    margin-top: 10px;
+  }
+  .ceo-editor-logoarea{
+    font-size: 14px;
+  }
+  .p-name{
+    font-family: "thesans-bold";
+  }
+  
+  .h-ads{
+    height: 80px;
+  }
+  .left{
+    left: 1%;
+  }
+  /*=============*/
+  
+  /*اخبار مصر*/
+  .h-masr{
+    height: 399px;
+  }
+  .h-masr-s{
+    height: 110px;
+    width: 113px;
+  }
+  .iso2 a {
+    padding: 5px 20px;
+  }
+  /*=============*/
+  
+  
+  
+  /*احزاب و نواب*/
+  .h-a7zab{
+    height: 200px;
+  }
+  .h-a7zab-s{
+    height: 69px;
+    width: 94px;
+  }
+  .nowab-logo1{
+    height: 33px;
+    width: 40px;
+    padding-bottom: 7px;
+    margin-left: 3px;
+  }
+  .nowab-logo{
+    height: 33px;
+    width: 40px;
+    padding-bottom: 7px;
+    background-color: rgb(104, 101, 101);
+    margin-left: 3px;
+  }
+  .nowab-logo-s{
+    height: 23px;
+    width: 25px;
+    padding-bottom: 7px;
+    background-color: rgb(104, 101, 101);
+    margin-left: 3px;
+  }
+  .color-azure-radiance:after{
+    background-color: rgb(104, 101, 101);
+  }
+  .color-azure-radiance:before {
+    border-top: 8px solid rgb(104, 101, 101);
+  }
+  /*==================*/
+  
+  
+  /*فنون وثقافة*/
+  .h-fnoon{
+    height: 176.66px;
+  }
+  
+  .color-apple2:after {
+    background-color: red;
+  }
+  
+  .color-apple2:before {
+    border-top: 8px solid red;
+    border-left: 8px solid transparent;
+  }
+  /*==================*/
+  
+  /*ads*/
+  .h-w-ads{
+    width: 690px;
+  }
