@@ -3,16 +3,14 @@
 gom styles:
 ===========================================*/
 /*basic*/
-@font-face{
-    font-family: "thesans-plain";
-    src: url(./fonts/thesans/The-Sans-Plain.otf);
-  }
-  @font-face{
-    font-family: "thesans-bold";
-    src: url(./fonts/thesans/TheSans-Bold.otf);
-  }
+
+
+/*font-family*/
   body , div, p {
     font-family: "thesans-plain";
+  }
+  h1,h2,h3,h4{
+    font-family: "thesans-bold";
   }
   .topic-box-lg{
     font-family: "thesans-bold";

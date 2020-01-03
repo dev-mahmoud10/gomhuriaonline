@@ -53,7 +53,14 @@ Author URI: https://radiustheme.com Version: 1.2
   
   src: url(fonts/jzoor.ttf);
 }
-
+@font-face{
+  font-family: "thesans-plain";
+  src: url(./fonts/thesans/The-Sans-Plain.otf);
+}
+@font-face{
+  font-family: "thesans-bold";
+  src: url(./fonts/thesans/TheSans-Bold.otf);
+}
 
 
 html {
@@ -68,7 +75,7 @@ html {
 body {
   font-size: 16px;
   line-height: 24px;
-  font-family: "jzoor",'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   vertical-align: baseline;
   background-color: #e6e8eb;
   color: #444444;
@@ -85,7 +92,7 @@ h2,
 h3,
 h4 {
   line-height: 1.4;
-  font-family: "jzoor" , sans-serif;
+  font-family:  sans-serif;
   margin: 0 0 20px 0;
   color: #111111;
   text-transform: capitalize;
@@ -102,7 +109,6 @@ h3 {
 p {
   line-height: 24px;
   margin: 0 0 20px 0;
-  font-family: jzoor;
 }
 
  

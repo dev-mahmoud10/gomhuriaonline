@@ -1,6 +1,39 @@
 /*gom-styles
 =============*/
 
+
+
+/*font-family*/
+body, div, p{
+  font-family: "thesans-plain";
+}
+h1,h2,h3,h4{
+  font-family: "thesans-bold";
+}
+.topic-box-lg{
+  font-family: "thesans-bold";
+}
+.slider-title{
+  font-family: 'thesans-bold';
+}
+footer .footer-box ul.popular-categories li a{
+  font-family: "thesans-plain";
+}
+.ne-main-menu nav ul li a{
+  font-family: "thesans-plain";
+}
+.main-menu-area{
+  font-family: "thesans-plain"; 
+}
+.btn-tab li a {
+  font-family: "thesans-plain";
+}
+/*===========*/
+
+
+
+
+
 .bg-gray{
   background-color: lightgray;
 }
@@ -34,9 +67,7 @@ body {
 .nivo-main-image{
   height: 400px !important;
 }
-.slider-title{
-  font-family: 'jzoor';
-}
+
 /*==========*/
 
 
@@ -61,12 +92,7 @@ body {
   border-right: 0px;
 }
 
-.ne-main-menu nav ul li a{
-  font-family: "jzoor";
-}
-.main-menu-area{
-  font-family: "jzoor"; 
-}
+
 
 .p-logoarea{
   text-align: center;
@@ -83,7 +109,7 @@ body {
   font-weight: 900;
 }
 
-/*اخبار مصر*/
+/*اخبار مصر
 .h-newsmasr{
   height: 224.81px;
 }
@@ -94,7 +120,18 @@ body {
   border-top: 8px solid maroon;
 }
 /*===================*/
-
+/*اخبار مصر*/
+.h-masr{
+  height: 399px;
+}
+.h-masr-s{
+  height: 110px;
+  width: 113px;
+}
+.iso2 a {
+  padding: 5px 20px;
+}
+/*=============*/
 
 /*احزاب و نواب*/
 .h-a7zab1{
@@ -155,7 +192,7 @@ body {
 /*رياضة */
 .h-sport{
   height: 506px;
-  width: 282.66px;
+ 
 }
 .h-sport-s{
   height: 104px;
@@ -198,6 +235,7 @@ body {
 .h-report-p{
   height: 144px;
 }
+
 /*==================*/
 
 
@@ -286,7 +324,6 @@ body {
 }
 
 .btn-tab li a {
-  font-family: "jzoor";
   font-size: 12px;
   padding: 10PX 12PX;
 }
@@ -296,9 +333,7 @@ body {
   padding: 40px 20px;
 }
 
-footer .footer-box ul.popular-categories li a{
-  font-family: "jzoor";
-}
+
 .h-foot{
   height: 73px;
   width: 100px;
