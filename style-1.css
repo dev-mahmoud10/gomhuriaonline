@@ -85,6 +85,21 @@ body {
   background-color: maroon;
   color: white !important;
  }
+ .p-logoarea{
+  text-align: center;
+  margin: 0px;
+  line-height: 20px;
+}
+.editor-logoarea{
+  margin-top: 10px;
+}
+.ceo-editor-logoarea{
+  font-size: 14px;
+}
+.p-name{
+  font-weight: 900;
+}
+
 /*==========*/
 
 
@@ -129,20 +144,6 @@ body {
 
 
 
-.p-logoarea{
-  text-align: center;
-  margin: 0px;
-  line-height: 20px;
-}
-.editor-logoarea{
-  margin-top: 10px;
-}
-.ceo-editor-logoarea{
-  font-size: 14px;
-}
-.p-name{
-  font-weight: 900;
-}
 
 /*اخبار مصر
 .h-newsmasr{
