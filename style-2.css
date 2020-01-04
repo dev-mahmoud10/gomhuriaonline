@@ -56,8 +56,6 @@ gom styles:
     color: white !important;
    }
 
-
-
    .main-menu-area .ne-main-menu nav ul li{
      text-align: right;
    }
@@ -65,7 +63,6 @@ gom styles:
     text-align: center;
     margin: 0px;
     line-height: 20px;
-    
   }
   .editor-logoarea{
     margin-top: 10px;
@@ -85,3 +82,13 @@ gom styles:
   }
   /*=============*/
   
+
+  .h-slider-1{
+    height: 408.66px;
+  }
+  .h-slider-2{
+    height: 201.92px;
+  }
+  .h-slider-3{
+    height: 206.3px;
+  }
