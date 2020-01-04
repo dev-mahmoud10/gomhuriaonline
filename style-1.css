@@ -37,9 +37,16 @@ footer .footer-box ul.popular-categories li a{
 .color-cod-gray:after {/*header of aside cols*/
   background-color: maroon;
 }
+
+.color-cod-gray:before {
+  border-top: 8px solid maroon;
+  border-left: 8px solid transparent;
+}
 .pdtop{
   padding-top: 50px;
 }
+
+
 /*ads*/
 .asideads{
   width: 149px;
