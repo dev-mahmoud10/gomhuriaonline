@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>NewsEdge | Post Page</title>
+        <title>الجمهورية أونلاين | رياضة</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -30,6 +30,8 @@
         <link rel="stylesheet" href="css/hover-min.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-1.css">
+        <link rel="stylesheet" href="style-cat.css">
         <!-- For IE -->
         <link rel="stylesheet" type="text/css" href="css/ie-only.css" />
         <!-- Modernizr Js -->
@@ -50,130 +52,204 @@
         <div id="wrapper" class="wrapper">
             <!-- Header Area Start Here -->
             <header>
-                <div id="header-layout1" class="header-style1">
-                    <div class="main-menu-area bg-primarytextcolor header-menu-fixed" id="sticker">
-                        <div class="container">
-                            <div class="row no-gutters d-flex align-items-center">
-                                <div class="col-lg-2 d-none d-lg-block">
-                                    <div class="logo-area">
-                                        <a href="index.html">
-                                            <img src="img/logo.png" alt="logo" class="img-fluid">
-                                        </a>
+                <div id="header-layout2" class="header-style2">
+                    <div class="header-top-bar">
+                        <div class="top-bar-top bg-accent border-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-12">
+                                        <ul class="news-info-list text-center--md">
+                                            <li>
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>مصر</li>
+                                            <li>
+                                                <i class="fa fa-calendar" aria-hidden="true"></i><span id="current_date"></span></li>
+                                            <li>
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>اخر تحديث 11.30 am</li>
+                                            <li>
+                                                <i class="fa fa-cloud" aria-hidden="true"></i>29&#8451; القاهرة, مصر</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <ul class="header-social">
+                                            <li>
+                                                <a href="#" title="facebook">
+                                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="twitter">
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="google-plus">
+                                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="linkedin">
+                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="pinterest">
+                                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="rss">
+                                                    <i class="fa fa-rss" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="vimeo">
+                                                    <i class="fa fa-vimeo" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="col-xl-8 col-lg-7 position-static min-height-none">
+                            </div>
+                        </div>
+                        <div class="top-bar-bottom bg-body pt-20 pb-20 d-none d-lg-block">
+                            <div class="container">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 pl-0">
+                                        <div class="logo-area">
+                                            <a href="index.html" class="img-fluid">
+                                                <img src="img/logo-dark.png" alt="logo">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 pr-0 left">
+                                        <p class="p-logoarea ceo-logoarea ceo-editor-logoarea">رئيس مجلس الإدارة</p>
+                                        <p class="p-logoarea p-name">سعــد سليــم</p>
+
+                                        <p class="p-logoarea editor-logoarea ceo-editor-logoarea">رئيس التحرير</p>
+                                        <p class="p-logoarea p-name">عبد النبي الشحات </p>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-8 col-sm-8 ">
+                                        <div class="ne-banner-layout1 pull-right  ">
+                                            <a href="#">
+                                                <img src="img/banner/banner2.jpg" alt="ad" class="img-fluid ">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-menu-area bg-body" id="sticker">
+                        <div class="container">
+                            <div class="row no-gutters d-flex align-items-center">
+                                <div class="col-lg-10 position-static d-none d-lg-block">
                                     <div class="ne-main-menu">
                                         <nav id="dropdown">
                                             <ul>
-                                                <li>
-                                                    <a href="#">Home</a>
-                                                    <ul class="ne-dropdown-menu">
-                                                        <li>
-                                                            <a href="index.html">Home 1</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index2.html">Home 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index3.html">Home 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index4.html">Home 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index5.html">Home 5</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index6.html">Home 6</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index7.html">Home 7</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
                                                 <li class="active">
-                                                    <a href="#">Post</a>
+                                                    <a href="#"> <i class="fa fa-home" style="padding: 3px;"></i>   الرئيسية</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="#">أخبار مصر</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">أحزاب و نواب</a>
+                                                    
+                                                </li>
+                                                
+                                                <li>
+                                                    <a href="post-style-2.html">حوادث</a>
+                                                </li>
+                                                <li>
+                                                    <a href="post-style-3.html">تعليم</a>
+                                                </li>
+                                                <li>
+                                                    <a href="post-style-3.html">رياضة</a>
+                                                </li>
+                                               
+                                                <li>
+                                                    <a href="post-style-4.html">فنون و ثقافة</a>
+                                                </li>
+                                                
+                                                
+                                                <li>
+                                                    <a href="#">محافظات</a>
                                                     <ul class="ne-dropdown-menu">
-                                                        <li class="active">
-                                                            <a href="post-style-1.html">Post Style 1</a>
+                                                        <li>
+                                                            <a href="post-style-1.html">الغربيه</a>
                                                         </li>
                                                         <li>
-                                                            <a href="post-style-2.html">Post Style 2</a>
+                                                            <a href="post-style-2.html">الوادى الجديد</a>
                                                         </li>
                                                         <li>
-                                                            <a href="post-style-3.html">Post Style 3</a>
+                                                            <a href="post-style-3.html">مطروح</a>
                                                         </li>
                                                         <li>
-                                                            <a href="post-style-4.html">Post Style 4</a>
+                                                            <a href="post-style-4.html">اسكندريه</a>
                                                         </li>
                                                         <li>
-                                                            <a href="single-news-1.html">News Details 1</a>
+                                                            <a href="single-news-1.html">السويس</a>
                                                         </li>
                                                         <li>
-                                                            <a href="single-news-2.html">News Details 2</a>
+                                                            <a href="single-news-2.html">سيناء</a>
                                                         </li>
                                                         <li>
-                                                            <a href="single-news-3.html">News Details 3</a>
+                                                            <a href="single-news-3.html">الشرقيه</a>
                                                         </li>
                                                     </ul>
                                                 </li>
+
+
                                                 <li>
-                                                    <a href="#">Pages</a>
+                                                    <a href="#">المزيد</a>
                                                     <ul class="ne-dropdown-menu">
                                                         <li>
-                                                            <a href="author-post.html">Author Post Page</a>
+                                                            <a href="post-style-1.html">لايف ستايل</a>
                                                         </li>
                                                         <li>
-                                                            <a href="archive.html">Archive Page</a>
+                                                            <a href="post-style-2.html">فتافيت ماما</a>
                                                         </li>
                                                         <li>
-                                                            <a href="gallery-style-1.html">Gallery Style 1</a>
+                                                            <a href="post-style-3.html">تقارير</a>
                                                         </li>
                                                         <li>
-                                                            <a href="gallery-style-2.html">Gallery Style 2</a>
+                                                            <a href="post-style-4.html">إسكان</a>
                                                         </li>
                                                         <li>
-                                                            <a href="404.html">404 Error Page</a>
+                                                            <a href="single-news-1.html">الجمهورية أوتو</a>
                                                         </li>
                                                         <li>
-                                                            <a href="contact.html">Contact Page</a>
+                                                            <a href="single-news-2.html">سياحة</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="single-news-3.html">حول العالم</a>
                                                         </li>
                                                     </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-1.html">Politics</a>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-2.html">Business</a>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-3.html">Sports</a>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-4.html">Fashion</a>
                                                 </li>
                                             </ul>
                                         </nav>
                                     </div>
                                 </div>
-                                <div class="col-xl-2 col-lg-3 col-md-12 text-right position-static">
-                                    <div class="header-action-item">
+                                <div class="col-lg-2 col-md-12 text-right position-static">
+                                    <div class="header-action-item on-mobile-fixed">
                                         <ul>
                                             <li>
                                                 <form id="top-search-form" class="header-search-light">
-                                                    <input type="text" class="search-input" placeholder="Search...." required="" style="display: none;">
+                                                    <input type="text" class="search-input" placeholder="إبحث عن خبر ...." required="" style="display: none;">
                                                     <button class="search-button">
                                                         <i class="fa fa-search" aria-hidden="true"></i>
                                                     </button>
                                                 </form>
                                             </li>
-                                            <li>
+                                            <li class="d-none d-sm-block d-md-block d-lg-none">
                                                 <button type="button" class="login-btn" data-toggle="modal" data-target="#myModal">
                                                     <i class="fa fa-user" aria-hidden="true"></i>Sign in
                                                 </button>
                                             </li>
                                             <li>
-                                                <div id="side-menu-trigger" class="offcanvas-menu-btn">
+                                                <div id="side-menu-trigger" class="offcanvas-menu-btn offcanvas-btn-repoint">
                                                     <a href="#" class="menu-bar">
                                                         <span></span>
                                                         <span></span>
@@ -194,25 +270,25 @@
                 </div>
             </header>
             <!-- Header Area End Here -->
+
             <!-- News Feed Area Start Here -->
             <section class="bg-accent border-bottom add-top-margin">
                 <div class="container">
                     <div class="row no-gutters d-flex align-items-center">
                         <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                            <div class="topic-box mt-4 mb-5">Top Stories</div>
+                            <div class="topic-box mt-4 mb-5"> أخبار عاجلة</div>
                         </div>
                         <div class="col-lg-10 col-md-9 col-sm-8 col-7">
                             <div class="feeding-text-dark">
                                 <ol id="sample" class="ticker">
                                     <li>
-                                        <a href="#">McDonell Kanye West highlights difficulties for celebritiesComplimentary decor and
-                                            design advicewith Summit Park homes</a>
+                                        <a href="#">إفتتح الرئيس السيسي محاور جديدة بمصر الجديدة</a>
                                     </li>
                                     <li>
-                                        <a href="#">Magnificent Image Of The New Hoover Dam Bridge Taking Shape</a>
+                                        <a href="#">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
                                     </li>
                                     <li>
-                                        <a href="#">If Obama Had Governed Like This in 2017 He'd Be the Transformational.</a>
+                                        <a href="#">مجلس النواب يجتمع اليوم لبحث التعديلات الدستورية الجديدة</a>
                                     </li>
                                 </ol>
                             </div>
@@ -221,232 +297,198 @@
                 </div>
             </section>
             <!-- News Feed Area End Here -->
-            <!-- News Info List Area Start Here -->
-            <section class="bg-body">
-                <div class="container">
-                    <ul class="news-info-list text-center--sm">
-                        <li>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>Australia</li>
-                        <li>
-                            <i class="fa fa-calendar" aria-hidden="true"></i><span id="current_date"></span></li>
-                        <li>
-                            <i class="fa fa-clock-o" aria-hidden="true"></i>Last Update 11.30 am</li>
-                        <li>
-                            <i class="fa fa-cloud" aria-hidden="true"></i>29&#8451; Sydney, Australia</li>
-                    </ul>
-                </div>
-            </section>
-            <!-- News Info List Area End Here -->
+
+            
+
             <!-- Breadcrumb Area Start Here -->
-            <section class="breadcrumbs-area" style="background-image: url('img/banner/breadcrumbs-banner.jpg');">
+            <section class="breadcrumbs-area" style="background-image: url('img/news/sport/stadium.jpg');">
                 <div class="container">
                     <div class="breadcrumbs-content">
-                        <h1>Post Style_1</h1>
+                        <h1>رياضة</h1>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a> -</li>
-                            <li>All Posts</li>
+                                <a href="index.html">الرئيسية</a> -</li>
+                            <li>كل الأخبار </li>
                         </ul>
                     </div>
                 </div>
             </section>
             <!-- Breadcrumb Area End Here -->
-            <!-- Post Style 1 Page Area Start Here -->
+
+            
+
+            <!-- Post Style 2 Page Area Start Here -->
             <section class="bg-body section-space-less30">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-12">
                             <div class="row">
-                                <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="media media-none--lg mb-30">
-                                        <div class="position-relative width-40">
-                                            <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                <img src="img/news/news140.jpg" alt="news" class="img-fluid">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">Football</div>
-                                            </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news146.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">الغربية</div>
                                         </div>
-                                        <div class="media-body p-mb-none-child media-margin30">
-                                            <div class="post-date-dark">
-                                                <ul>
-                                                    <li>
-                                                        <span>by</span>
-                                                        <a href="single-news-1.html">Adams</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="title-semibold-dark size-lg mb-15">
-                                                <a href="single-news-1.html">Erik Jones has day he won’t soon forget as Denny backup at Bristol</a>
-                                            </h3>
-                                            <p>Separated they live in coast of the Semantics, a large language ocean. A river
-                                                named Duden flows by their place and ...
-                                            </p>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
                                         </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
                                     </div>
                                 </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="media media-none--lg mb-30">
-                                        <div class="position-relative width-40">
-                                            <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                <img src="img/news/news141.jpg" alt="news" class="img-fluid">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">Adventure</div>
-                                            </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news147.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">الشرقية</div>
                                         </div>
-                                        <div class="media-body p-mb-none-child media-margin30">
-                                            <div class="post-date-dark">
-                                                <ul>
-                                                    <li>
-                                                        <span>by</span>
-                                                        <a href="single-news-1.html">Adams</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="title-semibold-dark size-lg mb-15">
-                                                <a href="single-news-1.html">Erik Jones has day he won’t soon forget as Denny backup at Bristol</a>
-                                            </h3>
-                                            <p>Separated they live in coast of the Semantics, a large language ocean. A river
-                                                named Duden flows by their place and ...
-                                            </p>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
                                         </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
                                     </div>
                                 </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="media media-none--lg mb-30">
-                                        <div class="position-relative width-40">
-                                            <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                <img src="img/news/news142.jpg" alt="news" class="img-fluid">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">Food</div>
-                                            </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news148.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">مرسي مطروح</div>
                                         </div>
-                                        <div class="media-body p-mb-none-child media-margin30">
-                                            <div class="post-date-dark">
-                                                <ul>
-                                                    <li>
-                                                        <span>by</span>
-                                                        <a href="single-news-1.html">Adams</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="title-semibold-dark size-lg mb-15">
-                                                <a href="single-news-1.html">Erik Jones has day he won’t soon forget as Denny backup at Bristol</a>
-                                            </h3>
-                                            <p>Separated they live in coast of the Semantics, a large language ocean. A river
-                                                named Duden flows by their place and ...
-                                            </p>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
                                         </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
                                     </div>
                                 </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="media media-none--lg mb-30">
-                                        <div class="position-relative width-40">
-                                            <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                <img src="img/news/news143.jpg" alt="news" class="img-fluid">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">Race</div>
-                                            </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news149.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">الوادي الجديد</div>
                                         </div>
-                                        <div class="media-body p-mb-none-child media-margin30">
-                                            <div class="post-date-dark">
-                                                <ul>
-                                                    <li>
-                                                        <span>by</span>
-                                                        <a href="single-news-1.html">Adams</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="title-semibold-dark size-lg mb-15">
-                                                <a href="single-news-1.html">Erik Jones has day he won’t soon forget as Denny backup at Bristol</a>
-                                            </h3>
-                                            <p>Separated they live in coast of the Semantics, a large language ocean. A river
-                                                named Duden flows by their place and ...
-                                            </p>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
                                         </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
                                     </div>
                                 </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="media media-none--lg mb-30">
-                                        <div class="position-relative width-40">
-                                            <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                <img src="img/news/news144.jpg" alt="news" class="img-fluid">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">Corporate</div>
-                                            </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news150.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">قنا</div>
                                         </div>
-                                        <div class="media-body p-mb-none-child media-margin30">
-                                            <div class="post-date-dark">
-                                                <ul>
-                                                    <li>
-                                                        <span>by</span>
-                                                        <a href="single-news-1.html">Adams</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="title-semibold-dark size-lg mb-15">
-                                                <a href="single-news-1.html">Erik Jones has day he won’t soon forget as Denny backup at Bristol</a>
-                                            </h3>
-                                            <p>Separated they live in coast of the Semantics, a large language ocean. A river
-                                                named Duden flows by their place and ...
-                                            </p>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
                                         </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
                                     </div>
                                 </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="media media-none--lg mb-30">
-                                        <div class="position-relative width-40">
-                                            <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                <img src="img/news/news145.jpg" alt="news" class="img-fluid">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">People</div>
-                                            </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news151.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">الاسكندرية</div>
                                         </div>
-                                        <div class="media-body p-mb-none-child media-margin30">
-                                            <div class="post-date-dark">
-                                                <ul>
-                                                    <li>
-                                                        <span>by</span>
-                                                        <a href="single-news-1.html">Adams</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="title-semibold-dark size-lg mb-15">
-                                                <a href="single-news-1.html">Erik Jones has day he won’t soon forget as Denny backup at Bristol</a>
-                                            </h3>
-                                            <p>Separated they live in coast of the Semantics, a large language ocean. A river
-                                                named Duden flows by their place and ...
-                                            </p>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
                                         </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news152.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">الغربية</div>
+                                        </div>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
+                                        </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-12">
+                                    <div class="position-relative mb-30">
+                                        <a class="img-opacity-hover" href="single-news-1.html">
+                                            <img src="img/news/news153.jpg" alt="news" class="img-fluid width-100 mb-15">
+                                        </a>
+                                        <div class="topic-box-top-xs">
+                                            <div class="topic-box-sm color-cod-gray mb-20">سوهاج</div>
+                                        </div>
+                                        <div class="post-date-dark">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>October 25, 2017</li>
+                                            </ul>
+                                        </div>
+                                        <h3 class="title-medium-dark size-lg mb-none">
+                                            <a href="single-news-1.html">مجلس الوزراء يجتمع اليوم لبحث الحد الأدني للموظفين</a>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
@@ -483,32 +525,24 @@
                                 </div>
                                 <ul class="stay-connected overflow-hidden">
                                     <li class="facebook">
-                                        <a href="#">
-                                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                                            <div class="connection-quantity">50.2 k</div>
-                                            <p>Fans</p>
-                                        </a>
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <div class="connection-quantity">50.2 k</div>
+                                        <p>Fans</p>
                                     </li>
                                     <li class="twitter">
-                                        <a href="#">
-                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                            <div class="connection-quantity">10.3 k</div>
-                                            <p>Followers</p>
-                                        </a>
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <div class="connection-quantity">10.3 k</div>
+                                        <p>Followers</p>
                                     </li>
                                     <li class="linkedin">
-                                        <a href="#">
-                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                            <div class="connection-quantity">25.4 k</div>
-                                            <p>Fans</p>
-                                        </a>
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        <div class="connection-quantity">25.4 k</div>
+                                        <p>Fans</p>
                                     </li>
                                     <li class="rss">
-                                        <a href="#">
-                                            <i class="fa fa-rss" aria-hidden="true"></i>
-                                            <div class="connection-quantity">20.8 k</div>
-                                            <p>Subscriber</p>
-                                        </a>
+                                        <i class="fa fa-rss" aria-hidden="true"></i>
+                                        <div class="connection-quantity">20.8 k</div>
+                                        <p>Subscriber</p>
                                     </li>
                                 </ul>
                             </div>
@@ -575,7 +609,8 @@
                     </div>
                 </div>
             </section>
-            <!-- Post Style 1 Page Area End Here -->
+            <!-- Post Style 2 Page Area End Here -->
+
             <!-- Footer Area Start Here -->
             <footer>
                 <div class="footer-area-top">
@@ -583,16 +618,16 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="footer-box">
-                                    <h2 class="title-bold-light title-bar-left text-uppercase">Most Viewed Posts</h2>
+                                    <h2 class="title-bold-light title-bar-left text-uppercase">أهم الموضوعات</h2>
                                     <ul class="most-view-post">
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-1.html">
-                                                    <img src="img/footer/post1.jpg" alt="post" class="img-fluid">
+                                                    <img src="img/news/iskan/iskan1.jpg" alt="post" class="img-fluid h-foot">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
-                                                        <a href="#">Basketball Stars Face Off itim ate Playoff Beard Battle</a>
+                                                        <a href="#">العاصمة الإدارية تفتح أبوابها للعالم</a>
                                                     </h3>
                                                     <div class="post-date-light">
                                                         <ul>
@@ -608,11 +643,11 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-2.html">
-                                                    <img src="img/footer/post2.jpg" alt="post" class="img-fluid">
+                                                    <img src="img/news/fnoon/Untitled-9.jpg" alt="post" class="img-fluid h-foot">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
-                                                        <a href="#">Basketball Stars Face Off in ate Playoff Beard Battle</a>
+                                                        <a href="#">شيرين تقيم حفل فالرياض</a>
                                                     </h3>
                                                     <div class="post-date-light">
                                                         <ul>
@@ -628,11 +663,11 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-3.html">
-                                                    <img src="img/footer/post3.jpg" alt="post" class="img-fluid">
+                                                    <img src="img/news/auto/tech2.jpg" alt="post" class="img-fluid h-foot">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
-                                                        <a href="#">Basketball Stars Face tim ate Playoff Battle</a>
+                                                        <a href="#">أيفون يتصدر مبيعات الهواتف في مصر</a>
                                                     </h3>
                                                     <div class="post-date-light">
                                                         <ul>
@@ -650,45 +685,45 @@
                             </div>
                             <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
                                 <div class="footer-box">
-                                    <h2 class="title-bold-light title-bar-left text-uppercase">Popular Categories</h2>
+                                    <h2 class="title-bold-light title-bar-left text-uppercase">أهم التصنيفات</h2>
                                     <ul class="popular-categories">
                                         <li>
-                                            <a href="#">Gadgets
+                                            <a href="#">سياسة
                                                 <span>15</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">Architecture
+                                            <a href="#">إقتصاد
                                                 <span>10</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">New look 2017
+                                            <a href="#">لايف ستايل
                                                 <span>14</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">Reviews
+                                            <a href="#">تكنولوجيا
                                                 <span>13</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">Mobile and Phones
+                                            <a href="#">تعليم
                                                 <span>19</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">Recipes
+                                            <a href="#">فن وثقافه
                                                 <span>26</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">Decorating
+                                            <a href="#">محافظات
                                                 <span>21</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">IStreet fashion
+                                            <a href="#">فتافيت ماما
                                                 <span>09</span>
                                             </a>
                                         </li>
@@ -696,129 +731,51 @@
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
-                                <div class="footer-box">
-                                    <h2 class="title-bold-light title-bar-left text-uppercase">Post Gallery</h2>
-                                    <ul class="post-gallery shine-hover ">
-                                        <li>
-                                            <a href="gallery-style1.html">
-                                                <figure>
-                                                    <img src="img/footer/post4.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style2.html">
-                                                <figure>
-                                                    <img src="img/footer/post5.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style1.html">
-                                                <figure>
-                                                    <img src="img/footer/post6.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style2.html">
-                                                <figure>
-                                                    <img src="img/footer/post7.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style1.html">
-                                                <figure>
-                                                    <img src="img/footer/post8.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style2.html">
-                                                <figure>
-                                                    <img src="img/footer/post9.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style1.html">
-                                                <figure>
-                                                    <img src="img/footer/post10.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style2.html">
-                                                <figure>
-                                                    <img src="img/footer/post11.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-style1.html">
-                                                <figure>
-                                                    <img src="img/footer/post12.jpg" alt="post" class="img-fluid">
-                                                </figure>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <div class="footer-area-bottom">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="index.html" class="footer-logo img-fluid">
+                                                    <img src="./img/logo2.png" alt="logo" class="img-fluid">
+                                                </a>
+                                                <ul class="footer-social">
+                                                    <li>
+                                                        <a href="#" title="facebook">
+                                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="twitter">
+                                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <a href="#" title="linkedin">
+                                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <a href="#" title="rss">
+                                                            <i class="fa fa-rss" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                  
+                                                </ul>
+                                                <p> حقوق النشر محفوظة لمؤسسة دار الجمهورية للصحافة ©</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-area-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="index.html" class="footer-logo img-fluid">
-                                    <img src="img/logo.png" alt="logo" class="img-fluid">
-                                </a>
-                                <ul class="footer-social">
-                                    <li>
-                                        <a href="#" title="facebook">
-                                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="twitter">
-                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="google-plus">
-                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="linkedin">
-                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="pinterest">
-                                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="rss">
-                                            <i class="fa fa-rss" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="vimeo">
-                                            <i class="fa fa-vimeo" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <p>© 2017 newsedge Designed by RadiusTheme. All Rights Reserved</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
             </footer>
             <!-- Footer Area End Here -->
+
             <!-- Modal Start-->
             <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
@@ -997,6 +954,7 @@
         <!-- jquery.counterup js -->
         <script src="js/jquery.counterup.min.js"></script>
         <script src="js/waypoints.min.js"></script>
+
         <!-- Isotope js -->
         <script src="js/isotope.pkgd.min.js " type="text/javascript"></script>
         <!-- Magnific Popup -->
