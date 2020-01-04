@@ -5,16 +5,6 @@ gom styles:
 /*basic*/
 
 
-/*font-family*/
-  body , div, p {
-    font-family: "thesans-plain";
-  }
-  h1,h2,h3,h4{
-    font-family: "thesans-bold";
-  }
-  .topic-box-lg{
-    font-family: "thesans-bold";
-  }
   @media (min-width: 1200px)
   {
     .container {
@@ -65,6 +55,9 @@ gom styles:
     background-color: red !important;
     color: white !important;
    }
+
+
+
    .main-menu-area .ne-main-menu nav ul li{
      text-align: right;
    }
@@ -92,74 +85,3 @@ gom styles:
   }
   /*=============*/
   
-  /*اخبار مصر*/
-  .h-masr{
-    height: 399px;
-  }
-  .h-masr-s{
-    height: 110px;
-    width: 113px;
-  }
-  .iso2 a {
-    padding: 5px 20px;
-  }
-  /*=============*/
-  
-  
-  
-  /*احزاب و نواب*/
-  .h-a7zab{
-    height: 200px;
-  }
-  .h-a7zab-s{
-    height: 69px;
-    width: 94px;
-  }
-  .nowab-logo1{
-    height: 33px;
-    width: 40px;
-    padding-bottom: 7px;
-    margin-left: 3px;
-  }
-  .nowab-logo{
-    height: 33px;
-    width: 40px;
-    padding-bottom: 7px;
-    background-color: rgb(104, 101, 101);
-    margin-left: 3px;
-  }
-  .nowab-logo-s{
-    height: 23px;
-    width: 25px;
-    padding-bottom: 7px;
-    background-color: rgb(104, 101, 101);
-    margin-left: 3px;
-  }
-  .color-azure-radiance:after{
-    background-color: rgb(104, 101, 101);
-  }
-  .color-azure-radiance:before {
-    border-top: 8px solid rgb(104, 101, 101);
-  }
-  /*==================*/
-  
-  
-  /*فنون وثقافة*/
-  .h-fnoon{
-    height: 176.66px;
-  }
-  
-  .color-apple2:after {
-    background-color: red;
-  }
-  
-  .color-apple2:before {
-    border-top: 8px solid red;
-    border-left: 8px solid transparent;
-  }
-  /*==================*/
-  
-  /*ads*/
-  .h-w-ads{
-    width: 690px;
-  }
