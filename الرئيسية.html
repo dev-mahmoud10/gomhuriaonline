@@ -39,6 +39,26 @@
 
         <!-- Modernizr Js -->
         <script src="js/modernizr-2.8.3.min.js"></script>
+         <!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Demo styles -->
+  <style>
+   
+    .swiper-container {
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+  </style>
     </head>
 
     <body >
@@ -311,6 +331,7 @@
                     </div>
                 </div>
             </section>
+            
             <!-- أخبار عاجلة Area End Here -->
 
             <!--  مقالات رئيس التحرير & سلايدر Area Start Here -->
@@ -1553,6 +1574,71 @@
             </section>
             <!-- حوادث Story Area End Here -->
 
+            <!-- فن  Start Here -->
+            <section class="container">
+                <div class=" bg-secondary-body bg-fnoon section-space-default2 ">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="topic-border color-cinnabar mb-30 width-100" style="display: flex;" >
+                                <div class="topic-box-lg color-cinnabar"><i class="fa fa-film"></i>  فن و ثقافة   </div>
+                                <div  style='height: 40px; width: 750px; background-color: violet; margin-right: 20px;'>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="container">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(./fitify2.png)"></div>
+                                <div class="swiper-slide" style="background-image:url(./googlefit2.png)"></div>
+                                <div class="swiper-slide" style="background-image:url(./islami.png)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(./images/nature-1.jpg0)"></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+    
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows : true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        }
+      });
+    </script>
+                   
+                    
+                </div>
+            </section>
+            <!-- فن  End Here -->
+
             <!--  فن وثقافه & أحزاب ونواب Area Start Here -->
             <section class="container">
                 <div class="bg-body box-layout pt-20">
@@ -1947,6 +2033,11 @@
                 </div>
             </section>
             <!-- أحزاب ونواب Area End Here -->
+
+
+
+            
+
 
             <!-- فيديو الجمهورية Start Here -->
               <section class="container">
