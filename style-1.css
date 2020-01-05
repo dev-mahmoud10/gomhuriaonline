@@ -49,13 +49,14 @@ footer .footer-box ul.popular-categories li a{
 
 /*ads*/
 .asideads{
+  right: 1.8%;
   width: 149px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
 }
 .asideads2{
-  right: 88.9%;
+  right: 87.1%;
   width: 149px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
@@ -111,7 +112,7 @@ body {
   height: 400px !important;
 }
 .w-editor-col{
-  max-width: 300px;
+  max-width: 290px;
   margin-right: 17px;
 }
 /*==========*/
@@ -120,7 +121,7 @@ body {
 @media (min-width: 1200px)
 {
   .container {
-    max-width: 1050px; 
+    max-width: 1030px;
   }
 }
 @media (max-width: 1200px){
