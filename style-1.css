@@ -1,7 +1,9 @@
 /*gom-styles
 =============*/
 
-
+body {
+  background-color: #d20808;
+}
 
 /*font-family*/
 body, div, p{
@@ -35,11 +37,11 @@ footer .footer-box ul.popular-categories li a{
   background-color: lightgray;
 }
 .color-cod-gray:after {/*header of aside cols*/
-  background-color: maroon;
+  background-color: #d20808;
 }
 
 .color-cod-gray:before {
-  border-top: 8px solid maroon;
+  border-top: 8px solid #d20808;
   border-left: 8px solid transparent;
 }
 .pdtop{
@@ -73,17 +75,14 @@ footer .footer-box ul.popular-categories li a{
 
 /*header 1*/
 .top-bar-top2 {
-background-color: maroon;
+background-color: #d20808;
 box-shadow: 0px 1px 1px black;
 }
 .header-style5{
   position: relative;
 }
-body {
-  background-color: maroon;
-}
 .ne-main-menu nav ul li a:hover {
-  background-color: maroon;
+  background-color: #d20808;
   color: white !important;
  }
  .p-logoarea{
@@ -100,7 +99,6 @@ body {
 .p-name{
   font-weight: 900;
 }
-
 /*==========*/
 
 
@@ -233,11 +231,21 @@ body {
   border-top: 8px solid red;
   border-left: 8px solid transparent;
 }
-/*
+
 .bg-fnoon{
-  background-image: url(./img/news/fnoon/ramadan.jpg);
-}*/
-/*==================*/
+  background-image: url(./img/news/fnoon/cinema-bg.jpg);
+  background-repeat: no-repeat;
+}
+.section-space-default3{
+  padding: 30px 20px 20px 20px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 1px;
+}
+.bg-secondary-body2{
+  background-color: #191919;
+}
+/*============*/
 
 
 
