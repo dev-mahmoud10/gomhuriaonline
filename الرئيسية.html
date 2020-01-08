@@ -48,8 +48,9 @@
   <style>
     .swiper-container {
       width: 100%;
-      padding-top: 20px;
-      padding-bottom: 60px;
+      height: 330px;
+      padding-top: 10px;
+      padding-bottom: 40px;
     }
     .swiper-slide {
       background-position: center;
@@ -57,7 +58,12 @@
       width: 300px;
       height: 300px;
     }
+    .swiper-pagination-bullet-active{
+        background-color: red;
+    }
   </style>
+
+  
 
 
     </head>
@@ -333,109 +339,69 @@
                     </div>
                 </div>
             </section>
-            
             <!-- أخبار عاجلة Area End Here -->
 
             <!--  مقالات رئيس التحرير & سلايدر Area Start Here -->
             <section class="container">
-                <div class="bg-body box-layout pb-20 ">
-                    <div class="row no-gutters">
-                        <div class="col-xl-8 col-lg-12">
-                            <div class="main-slider1 img-overlay-slider mb-10">
-                                <div class="bend niceties preview-1 ">
-                                    <div id="ensign-nivoslider-3" class="slides">
-                                        <img src="./img/news/politics/sisi-780x500.jpg" alt="slider" title="#slider-direction-1" />
-                                        <img src="img/news/sport/ahly.jpg" alt="slider" title="#slider-direction-2"  />
-                                        <img src="img/news/politics/school2.jpg" alt="slider" title="#slider-direction-3"  />
-                                    </div>
-                                    <!-- direction 1 -->
-                                    <div id="slider-direction-1" class="t-cn slider-direction">
-                                        <div class="slider-content s-tb slide-1">
-                                            <div class="title-container s-tb-c">
-                                                <div class="text-right pl-50 pl20-xs">
-                                                    <div class="topic-box-sm color-cinnabar mb-20">سياسة</div>
-                                                    <div class="post-date-light d-none d-sm-block">
-                                                        <ul>
-                                                            
-                                                            <li>
-                                                                <span>
-                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                                </span>March 22, 2017</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="slider-title">السيسي يفتتح أكبر منطقة صناعية في قناة السويس</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- direction 2 -->
-                                    <div id="slider-direction-2" class="t-cn slider-direction">
-                                        <div class="slider-content s-tb slide-2">
-                                            <div class="title-container s-tb-c">
-                                                <div class="text-right pl-50 pl20-xs">
-                                                    <div class="topic-box-sm color-cinnabar mb-20">رياضة</div>
-                                                    <div class="post-date-light d-none d-sm-block">
-                                                        <ul>
-                                                            
-                                                            <li>
-                                                                <span>
-                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                                </span>March 22, 2017</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="slider-title">استعدادات الاهلي والزمالك لمباراة القمة القادمة</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- direction 3 -->
-                                    <div id="slider-direction-3" class="t-cn slider-direction">
-                                        <div class="slider-content s-tb slide-3">
-                                            <div class="title-container s-tb-c">
-                                                <div class="text-right pl-50 pl20-xs">
-                                                    <div class="topic-box-sm color-cinnabar mb-20">تعليم</div>
-                                                    <div class="post-date-light d-none d-sm-block">
-                                                        <ul>
-                                                            
-                                                            <li>
-                                                                <span>
-                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                                </span>March 22, 2017</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="slider-title">وزارة التعليم تفرض رسوم إضافية علي المدارس الانترناشونال</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <!-- Swiper -->
+  <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-2.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-10.jpg)"></div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-2.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-10.jpg)"></div>
+    </div>
+  </div>
 
-                        <!--مقالات رئيس التحرير -->
-                        <div class=" sidebar-break-md col-lg-4 col-md-12 w-editor-col">
-                            <div class="sidebar-box mb-15">
-                                <div class="topic-border color-cod-gray mb-10">
-                                    <div class="topic-box-lg color-cod-gray">بقلم: رئيس التحرير </div>
-                                </div>
-                                <div class="ne-banner-layout1 text-center">
-                                    <a href="#">
-                                        <img src="img/editor.jpg" alt="ad" class="img-fluid">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="sidebar-box">
-                                <div class="ne-banner-layout1 text-center">
-                                    <a href="#">
-                                        <img src="img/banner/ad-oppo.jpg" alt="ad" class="img-fluid h-ads-s">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--مقالات رئيس التحرير End here-->
-                    </div>
-                </div>
+  
+
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      loop: true,
+      freeMode: true,
+      loopedSlides: 5, //looped slides should be the same
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      loop:true,
+      loopedSlides: 5, //looped slides should be the same
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs,
+      },
+    });
+  </script>
             </section>
             <!-- سلايدر Area End Here -->
 
