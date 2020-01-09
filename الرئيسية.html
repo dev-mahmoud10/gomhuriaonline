@@ -32,6 +32,7 @@
         <!-- Switch Style CSS -->
         <link rel="stylesheet" href="css/hover-min.css">
         <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="./css/swiperSlider.css"> 
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">  
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css">
@@ -42,7 +43,9 @@
         <!-- Modernizr Js -->
         <script src="js/modernizr-2.8.3.min.js"></script>
         <!--swiper.js-->
+        <script src="./js/swiperSlider.js"></script>
         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        
 
         <!-- swiper-fn styles -->
         <style>
@@ -65,6 +68,37 @@
                 top: 313px;
             }
         </style>
+        <!-- Demo styles -->
+  <style>
+    
+    .swiper-container2 {
+      width: 100%;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide2 {
+      background-size: cover;
+      background-position: center;
+    }
+    .gallery-top {
+      height: 80%;
+      width: 100%;
+    }
+    .gallery-thumbs {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+    .gallery-thumbs .swiper-slide2 {
+      height: 100%;
+      opacity: 0.4;
+    }
+    .gallery-thumbs .swiper-slide2-thumb-active {
+      opacity: 1;
+    }
+
+  </style>
         
 
   
@@ -319,8 +353,8 @@
 
             
             <!-- أخبار عاجلة Area Start Here -->
-            <section class="bg-accent container box-layout">
-                <div class="">
+            <section class="container">
+                <div class="box-layout bg-accent">
                     <div class="row no-gutters d-flex align-items-center">
                         <div class="col-lg-2 col-md-3 col-sm-4 col-5">
                             <div class="topic-box mt-4 mb-5">أخبار عاجلة </div>
@@ -348,35 +382,35 @@
             <!--  مقالات رئيس التحرير & سلايدر Area Start Here -->
             <section class="container">
                 <!-- Swiper -->
-                <div class="swiper-container gallery-top">
+                <div class="swiper-container2 gallery-top">
                     <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-2.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-10.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-2.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-3.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-4.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-5.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-6.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-7.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-8.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-9.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-10.jpg)"></div>
                     </div>
                     <!-- Add Arrows -->
                     <div class="swiper-button-next swiper-button-white"></div>
                     <div class="swiper-button-prev swiper-button-white"></div>
                 </div>
-                <div class="swiper-container gallery-thumbs">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-2.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(./images/nature-10.jpg)"></div>
+                <div class="swiper-container2 gallery-thumbs">
+                    <div class="swiper-wrapper2">
+                    <div class="swiper-slide2" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-2.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-3.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-4.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-5.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-6.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-7.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-8.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-9.jpg)"></div>
+                    <div class="swiper-slide2" style="background-image:url(./images/nature-10.jpg)"></div>
                     </div>
                 </div>
 
@@ -665,22 +699,25 @@
                         <div class="col-12">
                             <div class="ne-isotope">
                                 <div class="topic-border color-cinnabar mb-30">
-                                    <div class="topic-box-lg color-cinnabar">أخبار مصر</div>
+                                    <div id="one" class="topic-box-lg color-cinnabar" >أهم الأخبار</div>
                                     <div class="isotope-classes-tab isotop-btn iso2">
-                                        <a href="#" data-filter=".politics" class="current">سياسة</a>
-                                        <a href="#" data-filter=".fashion">إقتصاد</a>
-                                        <a href="#" data-filter=".health">تعليم</a>
-                                        <a href="#" data-filter=".travel">سياحة</a>
-                                        <a href="#" data-filter=".gadget">نبض الشارع</a>
+                                        <a href="#" data-filter=".masr"  class="current">أخبار مصر</a>
+                                        <a href="#" data-filter=".politics" >سياسة</a>
+                                        <a href="#" data-filter=".economic" >إقتصاد</a>
+                                        <a href="#" data-filter=".travel" >سياحة</a>
+                                        <a href="#" data-filter=".street" >نبض الشارع</a>
                                     </div>
-                                    <div class="more-info-link">
-                                        <a href="post-style-1.html">المزيد
+                                    <div  class="more-info-link">
+                                        <a  href="">المزيد
                                             <i class="fa fa-angle-left" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                 </div>
+                                
+
                                 <div class="featuredContainer">
-                                    <div class="row politics">
+                                    <!--أخبار مصر-->
+                                    <div class="row masr">
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
@@ -820,8 +857,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--إقتصاد-->
-                                    <div class="row fashion">
+                                    <!--سياسة-->
+                                    <div class="row politics">
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
@@ -961,8 +998,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--تعليم-->
-                                    <div class="row health">
+                                    <!--إقتصاد-->
+                                    <div class="row economic">
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
@@ -1244,7 +1281,7 @@
                                         </div>
                                     </div>
                                      <!--نبض الشارع-->
-                                    <div class="row gadget">
+                                    <div class="row street">
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
@@ -1404,19 +1441,19 @@
             </section>
             <!-- أخبار مصر Area End Here -->
             
-            <!-- حوادث Story Area Start Here -->
+            <!-- تعليم Story Area Start Here -->
             <section class="container">
                 <div class=" bg-accent box-layout pt-20">
                     <div class="row">
-                        <!--حوادث-->
+                        <!--تعليم-->
                         <div class="col-lg-8 col-md-12">
                             <div class="topic-border color-persian-green mb-30">
-                                <div class="topic-box-lg color-persian-green">حوادث</div>
+                                <div class="topic-box-lg color-persian-green">تعليم</div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 mb-30">
                                     <div class="img-overlay-70 img-scale-animate">
-                                        <img src="img/news/hwadeth/hwadeth-1.jpg" alt="news" class="img-fluid width-100 h-hwadeth">
+                                        <img src="img/news/hwadeth/hwadeth-1.jpg" alt="news" class="img-fluid width-100 h-ta3leem">
                                     </div>
                                     <ul class="item-box-light-mix item-shadow-gray">
                                         <li>
@@ -1437,7 +1474,7 @@
                                 <div class="col-md-6 col-sm-12">
                                     <div class="media bg-body item-shadow-gray mb-30">
                                         <a class="img-opacity-hover width34-lg width30-md" href="single-news-1.html">
-                                            <img src="img/news/hwadeth/hwadeth-2.jpg" alt="news" class="img-fluid h-w-hwadeth-s">
+                                            <img src="img/news/hwadeth/hwadeth-2.jpg" alt="news" class="img-fluid h-w-ta3leem-s">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -1455,7 +1492,7 @@
                                     </div>
                                     <div class="media bg-body item-shadow-gray mb-30">
                                         <a class="img-opacity-hover width34-lg width30-md" href="single-news-2.html">
-                                            <img src="img/news/hwadeth/hwadeth-3.jpg" alt="news" class="img-fluid h-w-hwadeth-s">
+                                            <img src="img/news/hwadeth/hwadeth-3.jpg" alt="news" class="img-fluid h-w-ta3leem-s">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -1474,7 +1511,7 @@
                                     </div>
                                     <div class="media bg-body item-shadow-gray mb-30">
                                         <a class="img-opacity-hover width34-lg width30-md" href="single-news-3.html">
-                                            <img src="img/news/hwadeth/hwadeth-4.jpg" alt="news" class="img-fluid h-w-hwadeth-s">
+                                            <img src="img/news/hwadeth/hwadeth-4.jpg" alt="news" class="img-fluid h-w-ta3leem-s">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -1493,42 +1530,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!--تابعنا-->
+                        <!--مقال رئيس التحرير-->
                         <div class="ne-sidebar sidebar-break-md col-lg-4 col-md-12">
-                            <div class="sidebar-box">
-                                <div class="topic-border color-cod-gray mb-30">
-                                    <div class="topic-box-lg color-cod-gray">تواصل معنا</div>
+                            <div class="sidebar-box mb-15">
+                                <div class="topic-border color-cod-gray mb-10">
+                                    <div class="topic-box-lg color-cod-gray">بقلم: رئيس التحرير </div>
                                 </div>
-                                <ul class="stay-connected-light overflow-hidden">
-                                    <li class="facebook">
-                                        <a href="#">
-                                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                                            <div class="connection-quantity">50.2 k</div>
-                                            <p>Fans</p>
-                                        </a>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="#">
-                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                            <div class="connection-quantity">10.3 k</div>
-                                            <p>Followers</p>
-                                        </a>
-                                    </li>
-                                    <li class="linkedin">
-                                        <a href="#">
-                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                            <div class="connection-quantity">25.4 k</div>
-                                            <p>Fans</p>
-                                        </a>
-                                    </li>
-                                    <li class="rss">
-                                        <a href="#">
-                                            <i class="fa fa-rss" aria-hidden="true"></i>
-                                            <div class="connection-quantity">20.8 k</div>
-                                            <p>Subscriber</p>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="ne-banner-layout1 text-center">
+                                    <a href="#">
+                                        <img src="img/editor.jpg" alt="ad" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
                             <div class="sidebar-box">
                                 <div class="ne-banner-layout1 text-center">
@@ -1538,13 +1550,10 @@
                                 </div>
                             </div>
                         </div>
-                       
-
-
                     </div>
                 </div>
             </section>
-            <!-- حوادث Story Area End Here -->
+            <!-- تعليم Story Area End Here -->
 
             <!-- فن  Start Here -->
             <section class="container">
@@ -1768,7 +1777,7 @@
             </section>
             <!-- فن  End Here -->
 
-            <!--  فن وثقافه & أحزاب ونواب Area Start Here -->
+            <!--   حوادث & أحزاب ونواب Area Start Here -->
             <section class="container">
                 <div class="bg-body box-layout pt-20">
                     <div class="section-space-bottom-less30">
@@ -1949,11 +1958,11 @@
                                     </div>
                                 </div>
 
-                                <!--تعليم Start here-->
+                                <!--حوادث Start here-->
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="topic-border color-apple2 mb-30 width-100">
-                                            <div class="topic-box-lg  color-apple2">تعليم</div>
+                                            <div class="topic-box-lg  color-apple2">حوادث</div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">

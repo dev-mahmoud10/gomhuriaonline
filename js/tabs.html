@@ -1,0 +1,30 @@
+<div class="isotope-classes-tab isotop-btn iso2">
+    <a href="#" data-filter=".masr"  class="current"onclick="masr()">أخبار مصر</a>
+    <a href="#" data-filter=".politics" onclick="politics()">سياسة</a>
+    <a href="#" data-filter=".economic" onclick="economic()">إقتصاد</a>
+    <a href="#" data-filter=".travel" onclick="travel()">سياحة</a>
+    <a href="#" data-filter=".street" onclick="street()">نبض الشارع</a>
+</div>
+<div  class="more-info-link">
+    <a id="more" href="https://www.twitter.com/">المزيد
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+    </a>
+</div>
+</div>
+<script>
+function masr() {
+    document.getElementById("more").setAttribute("href", "https://www.facebook.com/");
+}
+function politics() {
+    document.getElementById("more").setAttribute("href", "https://www.google.com/");
+}
+function economic() {
+    document.getElementById("more").setAttribute("href", "https://www.w3schools.com/");
+}
+function travel() {
+    document.getElementById("more").setAttribute("href", "https://www.gomhuriaonline.com/");
+}
+function street() {
+    document.getElementById("more").setAttribute("href", "https://stackoverflow.com/");
+}
+</script>

@@ -171,15 +171,16 @@ box-shadow: 0px 1px 1px black;
 
 
 
-/*حوادث*/
-.h-hwadeth{
-  height: 200px;
+/*تعليم*/
+.h-ta3leem{
+  height: 223px;
 }
-.h-w-hwadeth-s{
+.h-w-ta3leem-s{
   width: 105px;
   height: 108px;
 }
 /*=======*/
+
 /*احزاب و نواب*/
 .h-a7zab1{
   height: 200px;
@@ -237,7 +238,7 @@ box-shadow: 0px 1px 1px black;
   background-repeat: no-repeat;
 }
 .section-space-default3{
-  padding: 30px 20px 20px 20px;
+  padding: 25px 20px 20px 20px;
 }
 
 .bg-secondary-body2{
