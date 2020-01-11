@@ -1,9 +1,51 @@
 /*gom-styles
 =============*/
 
+
+/*General styles*/
 body {
   background-color: #d20808;
 }
+.bg-gray{
+  background-color: lightgray;
+}
+.color-cod-gray:after {/*header of aside cols*/
+  background-color: #d20808;
+}
+.color-cod-gray:before {
+  border-top: 8px solid #d20808;
+  border-left: 8px solid transparent;
+}
+.pdtop{
+  padding-top: 30px;
+}
+@media (min-width: 1200px)
+{
+  .container {
+    max-width: 1030px;
+  }
+}
+@media (max-width: 1200px){
+  .asideads2, .asideads{
+    display: none;
+  }
+}
+.box-shadow-0{
+  box-shadow: 0px 0px 0px 0px rgba(225, 225, 225, 0.75);
+}
+.bl-0{
+  border-left: 0px;
+}
+.br-0{
+  border-right: 0px;
+}
+.section-space-default2 {
+  padding: 40px 20px;
+}
+/*==============*/
+
+
+
 
 /*font-family*/
 body, div, p{
@@ -27,26 +69,10 @@ footer .footer-box ul.popular-categories li a{
 .btn-tab li a {
   font-family: "thesans-plain";
 }
-/*===========*/
+/*============================*/
 
 
 
-
-
-.bg-gray{
-  background-color: lightgray;
-}
-.color-cod-gray:after {/*header of aside cols*/
-  background-color: #d20808;
-}
-
-.color-cod-gray:before {
-  border-top: 8px solid #d20808;
-  border-left: 8px solid transparent;
-}
-.pdtop{
-  padding-top: 50px;
-}
 
 
 /*ads*/
@@ -72,6 +98,9 @@ footer .footer-box ul.popular-categories li a{
   width: 282.66px;
 }
 /*===============*/
+
+
+
 
 /*header 1*/
 .top-bar-top2 {
@@ -113,33 +142,37 @@ box-shadow: 0px 1px 1px black;
   max-width: 290px;
   margin-right: 17px;
 }
+/*swiper*/
+.swiper-container2 {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .swiper-slide {
+  background-size: cover;
+  background-position: center;
+  }
+  .gallery-top {
+  
+  width: 100%;
+  }
+  .gallery-thumbs {
+  
+  box-sizing: border-box;
+  padding: 10px 0;
+  }
+  .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  }
+  .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+  }
 /*==========*/
 
 
-@media (min-width: 1200px)
-{
-  .container {
-    max-width: 1030px;
-  }
-}
-@media (max-width: 1200px){
-  .asideads2, .asideads{
-    display: none;
-  }
-}
-
-
-.box-shadow-0{
-  box-shadow: 0px 0px 0px 0px rgba(225, 225, 225, 0.75);
-}
-
-.bl-0{
-  border-left: 0px;
-}
-
-.br-0{
-  border-right: 0px;
-}
 
 
 
@@ -180,6 +213,7 @@ box-shadow: 0px 1px 1px black;
   height: 108px;
 }
 /*=======*/
+
 
 /*احزاب و نواب*/
 .h-a7zab1{
@@ -244,6 +278,29 @@ box-shadow: 0px 1px 1px black;
 .bg-secondary-body2{
   background-color: #191919;
 }
+#dis{
+  display: flex;
+}
+
+/* swiper-fn styles */
+.swiper-container {
+  width: 100%;
+  height: 330px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  }
+  .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  }
+  .swiper-pagination-bullet-active{
+      background-color: red;
+  }
+  .swiper-pagination{
+      top: 313px;
+  }
 /*============*/
 
 
@@ -288,6 +345,8 @@ box-shadow: 0px 1px 1px black;
 }
 /*==================*/
 
+
+
 /*تقارير */
 .h-report{
   height: 137px;
@@ -295,8 +354,8 @@ box-shadow: 0px 1px 1px black;
 .h-report-p{
   height: 144px;
 }
-
 /*==================*/
+
 
 
 /*محافظات */
@@ -310,6 +369,12 @@ box-shadow: 0px 1px 1px black;
 /*==================*/
 
 
+/*اسكان*/
+.h-iskan-s{
+  height: 134px;
+  width: 222px;
+}
+/**/
 
 /*تكنولوجيا و اوتو */
 .color-ecstasy3:after {
@@ -337,9 +402,11 @@ box-shadow: 0px 1px 1px black;
 }
 /*==================*/
 
+
+
 /*اخبار الطيران */
 .h-air{
-  height: 400px;
+  height: 459px;
 }
 .h-air-s{
   height: 133px;
@@ -368,13 +435,22 @@ box-shadow: 0px 1px 1px black;
 }
 /*================*/
 
-.section-space-default2 {
-  padding: 40px 20px;
-}
 
 
+/*footer*/
 .h-foot{
   height: 73px;
   width: 100px;
 }
+/*========*/
 
+
+
+
+
+        
+           
+
+       
+        
+     

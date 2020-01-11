@@ -31,9 +31,7 @@
         <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
         <!-- Switch Style CSS -->
         <link rel="stylesheet" href="css/hover-min.css">
-        <!-- Link Swiper's CSS -->
-        <link rel="stylesheet" href="./css/swiperSlider.css"> 
-        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">  
+        
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="style-1.css">
@@ -42,73 +40,16 @@
 
         <!-- Modernizr Js -->
         <script src="js/modernizr-2.8.3.min.js"></script>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="./css/swiperSlider.css">  
         <!--swiper.js-->
-        <script src="./js/swiperSlider.js"></script>
-        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-        
-
-        <!-- swiper-fn styles -->
-        <style>
-            .swiper-container {
-            width: 100%;
-            height: 330px;
-            padding-top: 10px;
-            padding-bottom: 40px;
-            }
-            .swiper-slide {
-            background-position: center;
-            background-size: cover;
-            width: 300px;
-            height: 300px;
-            }
-            .swiper-pagination-bullet-active{
-                background-color: red;
-            }
-            .swiper-pagination{
-                top: 313px;
-            }
-        </style>
-        <!-- Demo styles -->
-  <style>
-    
-    .swiper-container2 {
-      width: 100%;
-      height: 300px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .swiper-slide2 {
-      background-size: cover;
-      background-position: center;
-    }
-    .gallery-top {
-      height: 80%;
-      width: 100%;
-    }
-    .gallery-thumbs {
-      height: 20%;
-      box-sizing: border-box;
-      padding: 10px 0;
-    }
-    .gallery-thumbs .swiper-slide2 {
-      height: 100%;
-      opacity: 0.4;
-    }
-    .gallery-thumbs .swiper-slide2-thumb-active {
-      opacity: 1;
-    }
-
-  </style>
-        
-
-  
-
-
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>      
     </head>
 
     <body >
         <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=1002108193331661&autoLogAppEvents=1"></script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=1002108193331661&autoLogAppEvents=1"></script>
 
         <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an 
@@ -358,7 +299,7 @@
                 <div class="box-layout bg-accent">
                     <div class="row no-gutters d-flex align-items-center">
                         <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                            <div class="topic-box mt-4 mb-5">أخبار عاجلة </div>
+                            <div class="topic-box mt-4 mb-5">عاجل </div>
                         </div>
                         <div class="col-lg-10 col-md-9 col-sm-8 col-7">
                             <div class="feeding-text-dark">
@@ -380,65 +321,78 @@
             </section>
             <!-- أخبار عاجلة Area End Here -->
 
+            
             <!--  سلايدر Area Start Here -->
+            <!-- Swiper -->
             <section class="container">
-                <!-- Swiper -->
-                <div class="swiper-container2 gallery-top">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide2" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-2.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-3.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-4.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-5.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-6.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-7.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-8.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-9.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-10.jpg)"></div>
+                <div class="bg-accent box-layout">
+                <div class="row">
+                    <div class="swiper-container2 gallery-top auto">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/iskan/iskan1.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/montakhab640x480.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/ramadan.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/nancy.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/iskan/iskan3.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/train.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/nwoab2.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/iskan4.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/school2.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/7ala.jpg)"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
                     </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
-                </div>
-                <div class="swiper-container2 gallery-thumbs">
-                    <div class="swiper-wrapper2">
-                    <div class="swiper-slide2" style="background-image:url(./img/news/iskan/iskan1.jpg);"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-2.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-3.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-4.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-5.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-6.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-7.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-8.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-9.jpg)"></div>
-                    <div class="swiper-slide2" style="background-image:url(./images/nature-10.jpg)"></div>
+                    <div class="swiper-container2 gallery-thumbs auto" style="height: 100px;">
+                        <div class="swiper-wrapper" >
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/iskan/iskan1.jpg); "></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/montakhab640x480.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/ramadan.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/nancy.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/iskan/iskan3.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/train.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/nwoab2.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/iskan4.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/school2.jpg)"></div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(img/news/politics/7ala.jpg)"></div>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Initialize Swiper -->
-                <script>
-                    var galleryThumbs = new Swiper('.gallery-thumbs', {
-                    spaceBetween: 10,
-                    slidesPerView: 4,
-                    loop: true,
-                    freeMode: true,
-                    loopedSlides: 5, //looped slides should be the same
-                    watchSlidesVisibility: true,
-                    watchSlidesProgress: true,
-                    });
-                    var galleryTop = new Swiper('.gallery-top', {
-                    spaceBetween: 10,
-                    loop:true,
-                    loopedSlides: 5, //looped slides should be the same
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
-                    thumbs: {
-                        swiper: galleryThumbs,
-                    },
-                    });
-                </script>
+                    <!-- Swiper JS -->
+                    <script src="../package/js/swiper.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        
+                        var galleryThumbs = new Swiper('.gallery-thumbs', {
+                        spaceBetween: 10,
+                        slidesPerView: 4,
+                        freeMode: true,
+                        watchSlidesVisibility: true,
+                        watchSlidesProgress: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                            }
+                        });
+                        var galleryTop = new Swiper('.gallery-top', {
+                        spaceBetween: 10,
+                        navigation: {
+                            nextEl: '.swiper-button-prev',
+                            prevEl: '.swiper-button-next',
+                        },
+                        thumbs: {
+                            swiper: galleryThumbs
+                        },
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                            }
+                        });
+                    </script>
+                    </div>
+                </div>
             </section>
             <!-- سلايدر Area End Here -->
 
@@ -1561,11 +1515,11 @@
                 <div class=" bg-secondary-body2 bg-fnoon section-space-default3 ">
                     <div class="row">
                         <div class="col-12">
-                            <div class="topic-border color-cinnabar mb-30 width-100" style="display: flex;" >
-                                <div class="topic-box-lg color-cinnabar"><i class="fa fa-film"></i>  فن و ثقافة   </div>
+                            <div id="dis" class=" topic-border color-cinnabar mb-30 width-100" >
+                                <div class=" topic-box-lg color-cinnabar"><i class="fa fa-film"></i>  فن و ثقافة   </div>
                                
-                                <div style='width: 780px;' >
-                                        <div class="mt-18" >
+                                
+                                        <div class="mt-18 width-70 d-none d-sm-block" >
                                             <div class="col-lg-10 col-md-9 col-sm-8 col-7" >
                                                 <div class="feeding-text-light2  mb-10"  >
                                                     <ol id="sample2" class="ticker">
@@ -1583,7 +1537,7 @@
                                             </div>
                                         </div>
                                  
-                                </div>
+                               
                                 
                             </div>
                             
@@ -1595,7 +1549,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/tamer.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1610,7 +1564,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/shereen.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1619,13 +1573,13 @@
                                             </ul>
                                         </div>
                                         <h3 class="title-medium-light">
-                                            <a href="single-news-3.html">فيلم الفلوس يحقق أعلي إيرادات فالسينما المصرية </a>
+                                            <a href="single-news-3.html">شيرين تحيي حفل غنائي فالرياض </a>
                                         </h3>
                                     </div>
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/joker.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1640,7 +1594,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/lina.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1655,7 +1609,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/reem.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1670,7 +1624,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/saqa.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1685,7 +1639,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/ashraf.jpeg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1700,7 +1654,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/ramy.jpeg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1715,7 +1669,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/nancy.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1730,7 +1684,7 @@
                                 </div>
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/saad.jpg)">
                                     <div class="mask-content-xs">
-                                        <div class="post-date-light d-none d-sm-block">
+                                        <div class="post-date-light ">
                                             <ul>
                                                 <li>
                                                     <span>
@@ -1749,29 +1703,29 @@
                     </div>
     
   
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows : true,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-        },
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        }
-      });
-    </script>
+                    <!-- Initialize Swiper -->
+                    <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        effect: 'coverflow',
+                        grabCursor: true,
+                        centeredSlides: true,
+                        slidesPerView: 'auto',
+                        coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows : true,
+                        },
+                        pagination: {
+                        el: '.swiper-pagination',
+                        },
+                        autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                        }
+                    });
+                    </script>
                    
                     
                 </div>
@@ -3407,9 +3361,9 @@
 
             <!--  اسكان وعقارات Area Start Here -->
             <section class="container">
-                <div class="container">
-                    <div class="row bg-body box-layout">
-                        <div class="col-lg-8 col-md-12 mb-30">
+                <div class="bg-body box-layout">
+                    <div class="row ">
+                        <div class="col-lg-8 col-md-12 ">
                             <div class="topic-border color-persian-green mb-30">
                                 <div class="topic-box-lg color-persian-green">إسكان و عقارات</div>
                             </div>
@@ -3436,12 +3390,12 @@
                                 </div>
                             </div>
                             
-                            <div class="item-box-light-md-less30 ie-full-width">
+                            <div class="item-box-light-md-less30 ie-full-width box-shadow-0">
 
                                 <div class="media mb-30 media-none--sm">
                                     <div class="position-relative width-40">
                                         <a href="single-news-1.html" class="img-opacity-hover">
-                                            <img src="img/news/iskan/iskan2.jpg" alt="news" class="img-fluid">
+                                            <img src="img/news/iskan/iskan2.jpg" alt="news" class="img-fluid h-iskan-s">
                                         </a>
                                        
                                     </div>
@@ -3467,7 +3421,7 @@
                                 <div class="media mb-30 media-none--sm">
                                     <div class="position-relative width-40">
                                         <a href="single-news-1.html" class="img-opacity-hover">
-                                            <img src="img/news/iskan/iskan3.jpg" alt="news" class="img-fluid">
+                                            <img src="img/news/iskan/iskan3.jpg" alt="news" class="img-fluid h-iskan-s">
                                         </a>
                                        
                                     </div>
@@ -3519,9 +3473,9 @@
                         </div>
 
                         <div class="ne-sidebar sidebar-break-md col-lg-4 col-md-12">
-                            <div class="sidebar-box text-center">
-                                <div class="text-center ">
-                                    <ul class="btn-tab  block-xs nav nav-tabs mb-15" role="tablist">
+                            <div class="sidebar-box ">
+                                <div class=" ">
+                                    <ul class="btn-tab  block-xs nav nav-tabs mb-10" role="tablist">
                                         <li class="nav-item">
                                             <a href="#recent" data-toggle="tab" aria-expanded="true" class="active">أسعار الذهب</a>
                                         </li>
@@ -4302,8 +4256,8 @@
                             </div>
                             <!-- ad  End here-->
                         </div>
-                        <!-- اسعار السيارات start here-->
 
+                        <!-- اسعار السيارات start here-->
                         <div class="ne-sidebar sidebar-break-md col-lg-4 col-md-12 ">
                             <div class="sidebar-box ">
                                 <div class="topic-border color-ecstasy3 mb-10 pt-3">
@@ -4316,8 +4270,8 @@
                                 </div>
                             </div>
                             <div class="sidebar-box">
-                                <div class="topic-border color-cod-gray mb-5">
-                                    <div class="topic-box-lg color-cod-gray">ألبوم صور</div>
+                                <div class="topic-border color-apple mb-5">
+                                    <div class="topic-box-lg color-apple"> تابعنا علي فيسبوك</div>
                                 </div>
                                 <div class="fb-page" data-href="https://www.facebook.com/algomhuriaonline/" data-tabs="timeline" data-width="292" data-height="300" data-small-header="" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/algomhuriaonline/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/algomhuriaonline/">‎الجمهورية أون لاين‎</a></blockquote></div>
                            
