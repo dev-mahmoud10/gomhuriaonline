@@ -142,6 +142,11 @@ box-shadow: 0px 1px 1px black;
   max-width: 290px;
   margin-right: 17px;
 }
+.addressPad{
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
 /*swiper*/
 .swiper-container2 {
   width: 100%;
@@ -249,6 +254,7 @@ box-shadow: 0px 1px 1px black;
 .color-azure-radiance:before {
   border-top: 8px solid rgb(104, 101, 101);
 }
+
 /*==================*/
 
 
@@ -277,6 +283,9 @@ box-shadow: 0px 1px 1px black;
 
 .bg-secondary-body2{
   background-color: #191919;
+}
+.more-info-link .moreColor{
+  color: #ddd3d3;
 }
 #dis{
   display: flex;
