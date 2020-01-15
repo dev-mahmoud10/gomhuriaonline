@@ -39,10 +39,27 @@ body {
     max-width: 1030px;
   }
 }
-@media (max-width: 1200px){
-  .asideads2, .asideads{
-    display: none;
-  }
+
+.topic-box-lg {/*large section address*/
+  height: 35px;
+  padding: 0 20px;
+  line-height: 37px;
+}
+
+.topic-box {/*عاجل*/
+  height: 30px;
+  line-height: 30px;
+}
+.topic-box-sm{/*slider section name*/
+  height: 20px;
+  padding: 0 10px;
+  line-height: 20px;
+}
+.isotop-btn a {/*sport tabs*/
+  padding: 7px 10px;
+}
+.iso2 a {/*news masr tabs*/
+  padding: 7px 20px;
 }
 /*==============*/
 
@@ -97,6 +114,11 @@ footer .footer-box ul.popular-categories li a{
 }
 .w-info{
   width: 282.66px;
+}
+@media (max-width: 1340px){
+  .asideads2, .asideads{
+    display: none;
+  }
 }
 /*===============*/
 
@@ -156,6 +178,7 @@ ul.header-social {
 
 
 
+
 /*slider & editor-col*/
 
 .w-editor-col{
@@ -167,7 +190,7 @@ ul.header-social {
   padding-bottom: 20px;
 }
 
-/*swiper*/
+/*
 .swiper-container2 {
   width: 100%;
   height: 300px;
@@ -195,7 +218,7 @@ ul.header-social {
   .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
   }
-/*==========*/
+==========*/
 
 
 
@@ -203,7 +226,7 @@ ul.header-social {
 
 /*اخبار مصر*/
 .h-masr{
-  height: 399px;
+  height: 390px;
 }
 .h-masr-s{
   height: 110px;
