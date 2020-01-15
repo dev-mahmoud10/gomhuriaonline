@@ -242,6 +242,14 @@ ul.header-social {
   padding-bottom: 7px;
   margin-left: 3px;
 }
+@media(max-width: 411px){
+  .nowab-logo1{
+    height: 25px;
+    width: 20px;
+    padding-bottom: 7px;
+    margin-left: 3px;
+  }
+}
 .nowab-logo{
   height: 33px;
   width: 40px;
