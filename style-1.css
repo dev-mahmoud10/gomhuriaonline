@@ -6,9 +6,6 @@
 body {
   background-color: #d20808;
 }
-.bg-gray{
-  background-color: lightgray;
-}
 .color-cod-gray:after {/*header of aside cols*/
   background-color: #d20808;
 }
@@ -39,7 +36,6 @@ body {
     max-width: 1030px;
   }
 }
-
 .topic-box-lg {/*large section address*/
   height: 35px;
   padding: 0 20px;
@@ -56,13 +52,12 @@ body {
   line-height: 20px;
 }
 .isotop-btn a {/*sport tabs*/
-  padding: 7px 10px;
+  padding: 8px 10px;
 }
 .iso2 a {/*news masr tabs*/
   padding: 7px 20px;
 }
 /*==============*/
-
 
 
 
@@ -93,17 +88,73 @@ footer .footer-box ul.popular-categories li a{
 
 
 
+
+
+/*header 1*/
+.top-bar-top2 {
+  background-color: #d20808;
+  box-shadow: 0px 1px 1px black;
+  }
+  .header-style5{
+    position: relative;
+  }
+  .ne-main-menu nav ul li a:hover {
+    background-color: #d20808;
+    color: white !important;
+   }
+   .p-logoarea{
+    text-align: center;
+    margin: 0px;
+    line-height: 20px;
+  }
+  .editor-logoarea{
+    margin-top: 10px;
+  }
+  .ceo-editor-logoarea{
+    font-size: 14px;
+  }
+  .p-name{
+    font-weight: 900;
+  }
+  .h-topmenu{
+    height: 32px;
+  }
+  ul.news-info-list {
+    padding: 4px 0;
+  }
+  ul.header-social {
+    padding: 3px 0;
+  }
+  .h-menu{
+    height: 45px;
+  }
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 13px;
+  }
+  .header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a {
+    padding: 11px 15px 10px 14px;
+    background-color: maroon;
+    color: white;
+    box-shadow: 0px 1px 1px black;
+  }
+  /*==========*/
+  
+
+
+
+
+
 /*ads*/
 .asideads{
   right: 1.8%;
-  width: 149px;
+  width: 140px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
 }
 .asideads2{
   right: 87.1%;
-  width: 149px;
+  width: 140px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
@@ -121,59 +172,6 @@ footer .footer-box ul.popular-categories li a{
   }
 }
 /*===============*/
-
-
-
-
-/*header 1*/
-.top-bar-top2 {
-background-color: #d20808;
-box-shadow: 0px 1px 1px black;
-}
-.header-style5{
-  position: relative;
-}
-.ne-main-menu nav ul li a:hover {
-  background-color: #d20808;
-  color: white !important;
- }
- .p-logoarea{
-  text-align: center;
-  margin: 0px;
-  line-height: 20px;
-}
-.editor-logoarea{
-  margin-top: 10px;
-}
-.ceo-editor-logoarea{
-  font-size: 14px;
-}
-.p-name{
-  font-weight: 900;
-}
-.h-topmenu{
-  height: 32px;
-}
-ul.news-info-list {
-  padding: 4px 0;
-}
-ul.header-social {
-  padding: 3px 0;
-}
-.h-menu{
-  height: 45px;
-}
-.header-style5 .main-menu-area .ne-main-menu nav ul li a {
-  padding: 11px 13px;
-}
-.header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a {
-  padding: 10px 15px;
-  background-color: maroon;
-  color: white;
-  box-shadow: 0px 1px 1px black;
-}
-/*==========*/
-
 
 
 
@@ -232,9 +230,7 @@ ul.header-social {
   height: 110px;
   width: 113px;
 }
-.iso2 a {
-  padding: 5px 20px;
-}
+
 /*=============*/
 
 
