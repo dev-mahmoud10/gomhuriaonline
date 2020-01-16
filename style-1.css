@@ -4,7 +4,7 @@
 
 /*General styles*/
 body {
-  background-image: linear-gradient(to right,rgb(209, 207, 207),rgb(71, 70, 70),rgb(71, 70, 70),rgb(71, 70, 70),rgb(209, 207, 207));
+  background-image: linear-gradient(to right,rgb(209, 207, 207),rgb(129, 128, 128),rgb(129, 128, 128),rgb(209, 207, 207));
 }
 .color-cod-gray:after {/*header of aside cols*/
   background-color: #d20808;
@@ -29,13 +29,6 @@ body {
 .section-space-default2 {
   padding: 25px 20px 30px 20px;
 }
-
-@media (min-width: 1200px)
-{
-  .container {
-    max-width: 1100px;
-  }
-}
 .topic-box-lg {/*large section address*/
   height: 35px;
   padding: 0 20px;
@@ -55,6 +48,24 @@ body {
 .iso2 a {/*news masr tabs*/
   padding: 7px 20px;
 }
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  .container {
+    max-width: 1100px;
+  }
+ }
 /*==============*/
 
 
