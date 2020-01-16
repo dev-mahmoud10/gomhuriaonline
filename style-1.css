@@ -4,7 +4,7 @@
 
 /*General styles*/
 body {
-  background-color: #d20808;
+  background-image: linear-gradient(to right,rgb(209, 207, 207),rgb(71, 70, 70),rgb(71, 70, 70),rgb(71, 70, 70),rgb(209, 207, 207));
 }
 .color-cod-gray:after {/*header of aside cols*/
   background-color: #d20808;
@@ -33,7 +33,7 @@ body {
 @media (min-width: 1200px)
 {
   .container {
-    max-width: 1030px;
+    max-width: 1100px;
   }
 }
 .topic-box-lg {/*large section address*/
@@ -51,9 +51,7 @@ body {
   padding: 0 10px;
   line-height: 20px;
 }
-.isotop-btn a {/*sport tabs*/
-  padding: 8px 10px;
-}
+
 .iso2 a {/*news masr tabs*/
   padding: 7px 20px;
 }
@@ -133,7 +131,7 @@ footer .footer-box ul.popular-categories li a{
   }
   .header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a {
     padding: 11px 15px 10px 14px;
-    background-color: maroon;
+    background-color: #d20808;
     color: white;
     box-shadow: 0px 1px 1px black;
   }
@@ -309,8 +307,9 @@ footer .footer-box ul.popular-categories li a{
 }
 
 .bg-fnoon{
-  background-image: url(./img/news/fnoon/cinema-bg.jpg);
-  background-repeat: no-repeat;
+  background-image: url(./img/news/fnoon/cinema-bg1.jpg);
+  
+  width: 100%;
 }
 .section-space-default3{
   padding: 25px 20px 20px 20px;
@@ -368,6 +367,9 @@ footer .footer-box ul.popular-categories li a{
   border-top: 8px solid green;
   border-left: 8px solid transparent;
 }
+.isotop-btn a {/*sport tabs*/
+  padding: 7px 10px;
+}
 /*==================*/
 
 
@@ -397,6 +399,9 @@ footer .footer-box ul.popular-categories li a{
 }
 .h-report-p{
   height: 144px;
+}
+.bg-gray{
+  background-color: rgb(211, 206, 206);
 }
 /*==================*/
 
@@ -493,6 +498,7 @@ footer .footer-box ul.popular-categories li a{
  
 
 
+
 /*  المقالات*/
 .h-article{
   height: 95px;
@@ -501,6 +507,11 @@ footer .footer-box ul.popular-categories li a{
   width: 124px;
   height: 108px;
 }
+
+.whatsapp{
+  background-color: rgb(5, 138, 5);
+}
+/*==========*/   
 
 
         
