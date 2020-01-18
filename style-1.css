@@ -49,8 +49,6 @@ body {
   padding: 7px 20px;
 }
 
-
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
 
@@ -61,11 +59,22 @@ body {
 @media (min-width: 992px) {  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {  }
+
+/* Extream large devices (labtop + desktop uses 1366*768 display size )*/
+@media (min-width: 1366px) { 
   .container {
-    max-width: 1100px;
+    max-width: 1095px;
+  }
+  .asideads{
+    right: 0.08%;
+  }
+  .asideads2{
+    right: 89.52%;
   }
  }
+ 
+ 
 /*==============*/
 
 
@@ -119,11 +128,19 @@ footer .footer-box ul.popular-categories li a{
   .editor-logoarea{
     margin-top: 10px;
   }
-  .ceo-editor-logoarea{
+  .ceo-font{
     font-size: 14px;
   }
-  .p-name{
-    font-weight: 900;
+  .logoarea-flex{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .left-2{
+    left: 2%;
   }
   .h-topmenu{
     height: 32px;
@@ -155,14 +172,14 @@ footer .footer-box ul.popular-categories li a{
 
 /*ads*/
 .asideads{
-  right: 1.8%;
+  
   width: 140px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
 }
 .asideads2{
-  right: 87.1%;
+  
   width: 140px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
@@ -175,11 +192,7 @@ footer .footer-box ul.popular-categories li a{
 .w-info{
   width: 282.66px;
 }
-@media (max-width: 1340px){
-  .asideads2, .asideads{
-    display: none;
-  }
-}
+
 /*===============*/
 
 
@@ -298,7 +311,9 @@ footer .footer-box ul.popular-categories li a{
 .color-azure-radiance:before {
   border-top: 8px solid rgb(104, 101, 101);
 }
-
+.pad-nowab{
+  padding: 2.5rem 2.5rem 1.5rem
+}
 /*==================*/
 
 
@@ -504,6 +519,10 @@ footer .footer-box ul.popular-categories li a{
 .h-foot{
   height: 73px;
   width: 100px;
+}
+footer .footer-area-top {
+  padding: 30px 0 0px;
+  border-bottom: 1px solid #4d4d4d;
 }
 /*========*/
  
