@@ -49,6 +49,8 @@ body {
   padding: 7px 20px;
 }
 
+
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
 
@@ -74,6 +76,23 @@ body {
   }
  }
  
+
+/*from 0 => specific maximum width*/
+@media (max-width: 1366px) {
+  .asideads, .asideads2 {
+    display: none;
+  }
+}
+@media(max-width: 411px){
+  .nowab-logo1{
+    height: 25px;
+    width: 20px;
+    padding-bottom: 7px;
+    margin-left: 3px;
+  }
+}
+
+
  
 /*==============*/
 
@@ -283,14 +302,7 @@ footer .footer-box ul.popular-categories li a{
   padding-bottom: 7px;
   margin-left: 3px;
 }
-@media(max-width: 411px){
-  .nowab-logo1{
-    height: 25px;
-    width: 20px;
-    padding-bottom: 7px;
-    margin-left: 3px;
-  }
-}
+
 .nowab-logo{
   height: 33px;
   width: 40px;
@@ -449,7 +461,11 @@ footer .footer-box ul.popular-categories li a{
   height: 134px;
   width: 222px;
 }
-/**/
+/*=========*/
+
+
+
+
 
 /*تكنولوجيا و اوتو */
 .color-ecstasy3:after {
@@ -499,6 +515,34 @@ footer .footer-box ul.popular-categories li a{
 
 
 
+/*فيديو الجمهورية*/
+.color-white2 .owl-controls i {
+  color: #e30e0e;
+}
+/*================*/
+
+/*اخترنا لك*/
+.color-cod-gray .owl-controls i {
+  color: #bcb4fd;
+}
+.bg-secondary-foru{
+  background-color: #172951;
+}
+.color-scampi2:after {
+  background-color: #8783da;
+}
+.color-scampi2:before {
+  border-top: 8px solid  #8783da;
+  border-left: 8px solid transparent;
+}
+.bg-gray2{
+  background-color: #e5dcdc;
+}
+.section-space-default4 {
+  padding: 20px 20px 25px 20px;
+}
+/*==========*/
+
 /*احدث الاخبار - عمود جانبي*/
 .h-latest{
   height: 93px;
@@ -540,6 +584,12 @@ footer .footer-area-top {
 
 .whatsapp{
   background-color: rgb(5, 138, 5);
+}
+.h-article{
+
+}
+.color-article{
+
 }
 /*==========*/   
 
