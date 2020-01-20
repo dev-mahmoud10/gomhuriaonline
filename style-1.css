@@ -75,7 +75,9 @@ body {
     right: 89.52%;
   }
  }
- 
+ @media(min-width: 1600px){
+
+ }
 
 /*from 0 => specific maximum width*/
 @media (max-width: 1365px) {
@@ -91,6 +93,7 @@ body {
     margin-left: 3px;
   }
 }
+
 
 
  
@@ -196,6 +199,7 @@ footer .footer-box ul.popular-categories li a{
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
+  
 }
 .asideads2{
   
@@ -259,7 +263,17 @@ footer .footer-box ul.popular-categories li a{
   }
 ==========*/
 
-
+ 
+.swiper-container-gallery {
+  width: 300px;
+  height: 300px;
+ 
+  left: 50%;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
 
 
 
@@ -523,16 +537,16 @@ footer .footer-box ul.popular-categories li a{
 
 /*اخترنا لك*/
 .color-cod-gray .owl-controls i {
-  color: #670404;
+  color: #242e74;
 }
 .bg-secondary-foru{
-  background-color: #ca0025;
+  background-color: #dbe8fb;
 }
 .color-scampi2:after {
-  background-color: #670404;
+  background-color: #242e74;
 }
 .color-scampi2:before {
-  border-top: 8px solid  #670404;
+  border-top: 8px solid  #242e74;
   border-left: 8px solid transparent;
 }
 .bg-gray2{
@@ -557,7 +571,11 @@ footer .footer-box ul.popular-categories li a{
 }
 /*================*/
 
-
+/*مقالات و اراء*/
+.h-writers{
+    width: 90px;
+    height: 90px;
+}
 
 /*footer*/
 .h-foot{
@@ -567,6 +585,36 @@ footer .footer-box ul.popular-categories li a{
 footer .footer-area-top {
   padding: 30px 0 0px;
   border-bottom: 1px solid #4d4d4d;
+}
+footer{/*to hide aside ads behind footer*/
+  position: relative;
+}
+footer .footer-area-bottom .footer-logo {
+  margin-bottom: 10px;
+  display: block;
+}
+ul.footer-social {
+  margin-bottom: 20px;
+}
+footer .footer-area-bottom {
+  padding: 5px 0 0px;
+}
+#copyright{
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer .footer-area-top {
+  padding: 30px 0 0px;
+  border-bottom: 1px solid #322f2f;
+}
+.privacy{
+  color: #b30303;
+}
+ul.footer-social {
+  margin-bottom: 10px;
 }
 /*========*/
  
@@ -618,4 +666,7 @@ footer .footer-area-top {
 
        
         
-     
+  
+ 
+   
+    
