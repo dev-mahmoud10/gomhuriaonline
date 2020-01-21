@@ -4,7 +4,7 @@
 
 /*General styles*/
 body {
-  background-image: linear-gradient(to right,rgb(209, 207, 207),rgb(129, 128, 128),rgb(129, 128, 128),rgb(209, 207, 207));
+  background-image: linear-gradient(to right,rgb(243, 238, 238),rgb(129, 128, 128),rgb(129, 128, 128),rgb(243, 238, 238));
 }
 .color-cod-gray:after {/*header of aside cols*/
   background-color: #d20808;
@@ -94,9 +94,6 @@ body {
   }
 }
 
-
-
- 
 /*==============*/
 
 
@@ -126,8 +123,26 @@ footer .footer-box ul.popular-categories li a{
 /*============================*/
 
 
+/*sidebar*/
+.ne-sidebar .sidebar-box {
+  margin-bottom: 3rem;
+}
+/*========*/
 
-
+/*google ads standard*/
+.med-rectangle{
+  width: 300px;
+  height: 250px;
+}
+.leaderboard{
+  width: 728px;
+  height: 90px;
+}
+.halfpage{
+  width: 300px;
+  height: 600px;
+}
+/*==================*/
 
 
 /*header 1*/
@@ -142,6 +157,10 @@ footer .footer-box ul.popular-categories li a{
     background-color: #d20808;
     color: white !important;
    }
+   .logoarea-container{
+     padding: 2% 0.5%;
+     width: 1300px;
+   }
    .p-logoarea{
     text-align: center;
     margin: 0px;
@@ -154,15 +173,14 @@ footer .footer-box ul.popular-categories li a{
     font-size: 14px;
   }
   .logoarea-flex{
-   
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .left-2{
-    left: 2%;
+  .left-3{
+    left: 3%;
   }
   .h-topmenu{
     height: 32px;
@@ -559,7 +577,7 @@ footer .footer-box ul.popular-categories li a{
 
 /*احدث الاخبار - عمود جانبي*/
 .h-latest{
-  height: 93px;
+  height: 85px;
 }
 .w-latest{
   width: 124px;
@@ -599,7 +617,7 @@ ul.footer-social {
 footer .footer-area-bottom {
   padding: 5px 0 0px;
 }
-#copyright{
+.copyright{
     display: block;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
@@ -652,6 +670,10 @@ ul.footer-social {
     height: 130px;
   }
   
+  .btn-tab li a .moreAuthors{
+    font-size: 12px;
+    padding: 1PX 12PX !important;
+}
   
   
   
