@@ -670,9 +670,9 @@ ul.footer-social {
     height: 130px;
   }
   
-  .btn-tab li a .moreAuthors{
-    font-size: 12px;
-    padding: 1PX 12PX !important;
+  .btn-tab li a {
+    font-size: 14px;
+   
 }
   
   
