@@ -53,17 +53,33 @@ body {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  }
-
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {  }
-
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {  }
-
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
-
-/* Extream large devices (labtop + desktop uses 1366*768 display size )*/
+@media (min-width: 1280px) { 
+  .container {
+    max-width: 1010px;
+  }
+  .asideads{
+    right: 0.08%;
+  }
+  .asideads2{
+    right: 88.8%;
+  }
+ }
+@media (min-width: 1360px) { 
+  .container {
+    max-width: 1088px;
+  }
+  .asideads{
+    right: 0.08%;
+  }
+  .asideads2{
+    right: 89.52%;
+  }
+ }
 @media (min-width: 1366px) { 
   .container {
     max-width: 1095px;
@@ -74,13 +90,19 @@ body {
   .asideads2{
     right: 89.52%;
   }
+  .header-style5 .main-menu-area .ne-main-menu nav ul .fn a{
+    display: none;
+  }
  }
+/* Extream large devices (labtop + desktop uses 1366*768 display size )*/
  @media(min-width: 1600px){
 
  }
 
+
+
 /*from 0 => specific maximum width*/
-@media (max-width: 1365px) {
+@media (max-width: 1279px) {
   .asideads, .asideads2 {
     display: none;
   }
