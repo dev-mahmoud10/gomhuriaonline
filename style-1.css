@@ -149,7 +149,15 @@ body {
     display: none;
   }
 }
-
+@media (max-width: 991px) { 
+  footer .footer-box{
+    display: none;
+  }
+  .it-container{
+    flex-direction: column;
+    text-align: center;
+  }
+ }
 @media(max-width: 411px){
   .nowab-logo1{
     height: 25px;
