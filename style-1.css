@@ -166,7 +166,6 @@ body {
     margin-left: 3px;
   }
 }
-
 /*==============*/
 
 
@@ -202,6 +201,8 @@ footer .footer-box ul.popular-categories li a{
 }
 /*========*/
 
+
+
 /*google ads standard*/
 .med-rectangle{
   width: 300px;
@@ -216,6 +217,8 @@ footer .footer-box ul.popular-categories li a{
   height: 600px;
 }
 /*==================*/
+
+
 
 
 /*header 1*/
@@ -285,26 +288,20 @@ footer .footer-box ul.popular-categories li a{
 
 /*ads*/
 .asideads{
-  
   width: 140px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
-  position: fixed;
-  
+  position: fixed; 
 }
 .asideads2{
-  
   width: 140px;
   height: 600px;
   background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
 }
-
-
 .w-info{
   width: 282.66px;
 }
-
 /*===============*/
 
 
@@ -312,7 +309,6 @@ footer .footer-box ul.popular-categories li a{
 
 
 /*slider & editor-col*/
-
 .w-editor-col{
   max-width: 290px;
   margin-right: 17px;
