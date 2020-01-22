@@ -90,6 +90,9 @@ body {
   .asideads2{
     right: 89.52%;
   }
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 14px !important;
+}
  }
 /* Extream large devices (labtop + desktop uses 1366*768 display size )*/
  @media(min-width: 1600px){
@@ -102,6 +105,9 @@ body {
   .asideads2{
     right: 85.1%;
   }
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 18px !important;
+}
  }
 
 
@@ -109,21 +115,15 @@ body {
 /*from 0 => specific maximum width*/
 @media (max-width: 1360px){
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-    padding: 11px 7px !important;
+    padding: 11px 11px !important;
 }
 }
 @media (max-width: 1280px){
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-    padding: 11px 5px !important;
+    padding: 11px 10px !important;
   }
   .header-style5 .main-menu-area .ne-main-menu nav ul  .hwadth  {
     display: none;
-  }
-}
-@media (max-width: 1024px) {
-  
-  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-    padding: 11px 3px !important;
   }
 }
 @media (max-width: 1279px) {
@@ -132,6 +132,24 @@ body {
   }
   
 }
+@media (max-width: 1132px){
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 8px !important;
+  }
+}
+
+@media (max-width: 1085px){/*for 1024 also*/
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 5px !important;
+  }
+}
+@media (max-width: 1013px){
+  
+  .header-style5 .main-menu-area .ne-main-menu nav ul  .eco  {
+    display: none;
+  }
+}
+
 @media(max-width: 411px){
   .nowab-logo1{
     height: 25px;
