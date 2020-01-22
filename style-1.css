@@ -90,22 +90,47 @@ body {
   .asideads2{
     right: 89.52%;
   }
-  .header-style5 .main-menu-area .ne-main-menu nav ul .fn a{
-    display: none;
-  }
  }
 /* Extream large devices (labtop + desktop uses 1366*768 display size )*/
  @media(min-width: 1600px){
-
+  .container {
+    max-width: 1140px;
+  }
+  .asideads{
+    right: 6%;
+  }
+  .asideads2{
+    right: 85.1%;
+  }
  }
 
 
 
 /*from 0 => specific maximum width*/
+@media (max-width: 1360px){
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 7px !important;
+}
+}
+@media (max-width: 1280px){
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 5px !important;
+  }
+  .header-style5 .main-menu-area .ne-main-menu nav ul  .hwadth  {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  
+  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
+    padding: 11px 3px !important;
+  }
+}
 @media (max-width: 1279px) {
   .asideads, .asideads2 {
     display: none;
   }
+  
 }
 @media(max-width: 411px){
   .nowab-logo1{
@@ -249,9 +274,7 @@ footer .footer-box ul.popular-categories li a{
   position: fixed;
 }
 
-.h-ads-s{
-  height: 190px;
-}
+
 .w-info{
   width: 282.66px;
 }
@@ -305,7 +328,7 @@ footer .footer-box ul.popular-categories li a{
 
  
 .swiper-container-gallery {
-  width: 300px;
+  width: 100%;
   height: 300px;
  
   left: 50%;
