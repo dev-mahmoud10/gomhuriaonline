@@ -288,13 +288,11 @@ footer .footer-box ul.popular-categories li a{
 .asideads{
   width: 140px;
   height: 600px;
-  background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed; 
 }
 .asideads2{
   width: 140px;
   height: 600px;
-  background-image: url(./img/banner/aside-ad2.jpg);
   position: fixed;
 }
 .w-info{
@@ -607,6 +605,9 @@ footer .footer-box ul.popular-categories li a{
   height: 69px;
   width: 94px;
 }
+.bg-air{
+  background-image: url('img/news/air/air-ad.jpg');
+}
 /*==================*/
 
 
@@ -651,6 +652,9 @@ footer .footer-box ul.popular-categories li a{
 .btn-tab li a {
   font-size: 12px;
   padding: 10PX 12PX;
+}
+.latest-color{
+  color: black;
 }
 /*================*/
 
