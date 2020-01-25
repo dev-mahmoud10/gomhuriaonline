@@ -52,7 +52,7 @@ body {
 
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {  }
 /* Large devices (desktops, 992px and up)*/
@@ -113,6 +113,11 @@ body {
 
 
 /*from 0 => specific maximum width*/
+@media (max-width: 576px) { 
+  .font-smscreen{
+    font-size: small;
+  }
+ }
 @media (max-width: 1360px){
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
     padding: 11px 11px !important;
@@ -190,6 +195,12 @@ footer .footer-box ul.popular-categories li a{
   font-family: "thesans-plain";
 }
 .btn-tab li a {
+  font-family: "thesans-plain";
+}
+.breadcrumbs-area .breadcrumbs-content ul li a {/*tree of pages*/
+  font-family: "thesans-plain";
+}
+.btn-ftg-ptp-45{/*اكتب تعليق*/
   font-family: "thesans-plain";
 }
 /*============================*/
@@ -731,17 +742,29 @@ ul.footer-social {
   }
   /*==========*/   
   
-  /*مقالات واراء*/
-  .h-authors{
-    width: 130px;
-    height: 130px;
-  }
-  
-  .btn-tab li a {
-    font-size: 14px;
-   
+
+/*مقالات واراء*/
+.h-authors{
+  width: 130px;
+  height: 130px;
 }
-  
+
+.btn-tab li a {
+  font-size: 14px;
+}
+
+.swip-area{
+  width: 166px;
+  height: 180px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.mask-content-xs-auth{
+  position: absolute;
+  z-index: 7;
+  bottom: 0;
+}
+/*================*/
   
   
   
