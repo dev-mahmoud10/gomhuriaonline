@@ -49,6 +49,23 @@ body {
   padding: 7px 20px;
 }
 
+.more-info-link a i {
+  color: #d20808;
+  border: 1px solid #dcdcdc;
+  margin-right: 15px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+@media only screen and (min-width: 576px){
+  .nav-control-top2 .owl-controls .owl-nav {
+    margin-top: 10px;
+}
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -114,9 +131,17 @@ body {
 
 /*from 0 => specific maximum width*/
 @media (max-width: 576px) { 
-  .font-smscreen{
+  .font-smscreen{/*مقالات واراء*/
     font-size: small;
+    margin-right: 0px !important;
   }
+  .column-xs{/*مقالات واراء*/
+    flex-direction: column;
+  }
+  .h-authors {/*مقالات واراء*/
+    width: 80px !important;
+    height: 80px !important;
+}
  }
 @media (max-width: 1360px){
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
@@ -737,8 +762,11 @@ ul.footer-social {
   height: 350px;
   width: 640px;
   }
-  .color-article{
-    color: #d20808;
+  a.color-article{
+    color: #d20808 !important;
+  }
+  a.color-article:hover{
+    color: black !important;
   }
   /*==========*/   
   
@@ -763,6 +791,9 @@ ul.footer-social {
   position: absolute;
   z-index: 7;
   bottom: 0;
+}
+.bg-hov:hover{
+  background-color: #ffe6e6;
 }
 /*================*/
   
