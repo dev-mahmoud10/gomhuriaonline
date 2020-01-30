@@ -61,6 +61,7 @@ body {
   transition: all 0.6s ease-out;
 }
 
+
 @media only screen and (min-width: 576px){
   .nav-control-top2 .owl-controls .owl-nav {
     margin-top: 10px;
@@ -81,7 +82,6 @@ body {
   padding: 11px 5px !important;
 }
  }
-
 @media (min-width: 1200px){/*for 1024 also*/
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
     padding: 11px 5px !important;
@@ -98,7 +98,6 @@ body {
 .asideads2{
   right:89.7%;
 }
-
 }
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1280px) { 
@@ -167,6 +166,9 @@ body {
     font-size: small;
     margin-right: 0px !important;
   }
+  .p-sm-14{
+    font-size: 14px;
+  }
   .column-xs{/*مقالات واراء*/
     flex-direction: column;
   }
@@ -182,6 +184,9 @@ body {
     width: 25px !important;
     padding-right: 5px !important;
   }
+ }
+ @media (max-width: 992px){
+ 
  }
 @media (max-width: 1360px){
  
@@ -354,13 +359,28 @@ footer .footer-box ul.popular-categories li a{
     color: white;
     box-shadow: 0px 1px 1px black;
   }
-
   .dropdown-toggle::after{
     margin-right: 5px;
   }
   
-  
-  /*==========*/
+  /*nested dropdown menu*/
+  .header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li > ul.nested {
+    display: none;
+}
+  .header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li:hover > ul.nested {
+    background-color: #e53935;
+    right: 90px;
+    display: block;
+}
+.header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a.removestyle {
+  padding: 0px 0px ;
+  background-color: #e53935;
+  color: white;
+  box-shadow: 0px 0px 0px black;
+}
+
+
+  /*=================================*/
   
 
 
