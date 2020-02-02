@@ -68,6 +68,10 @@ body {
 }
 }
 
+.breadcrumbs-content a .cathov:hover{
+  color: #d20808;
+  
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { }
@@ -75,6 +79,9 @@ body {
 @media (min-width: 768px) {  }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+  .h-menu{
+    height: 45px;
+  }
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
     font-size: 13px;
 }
@@ -189,7 +196,7 @@ body {
  
  }
 @media (max-width: 1360px){
- 
+  
 }
 @media (max-width: 1279px){/*from 0px to 1280px make flyads width 120px*/
  
@@ -297,6 +304,13 @@ footer .footer-box ul.popular-categories li a{
 .w-info{
   width: 282.66px;
 }
+.advertisement{
+  font-size: 8px;
+  color: gray; 
+  float: left; 
+  line-height: 2;
+  margin-left: 15px;
+}
 
 /*==================*/
 
@@ -347,9 +361,7 @@ footer .footer-box ul.popular-categories li a{
   ul.header-social {
     padding: 3px 0;
   }
-  .h-menu{
-    height: 45px;
-  }
+  
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
     padding: 11px 13px;
   }
@@ -378,10 +390,18 @@ footer .footer-box ul.popular-categories li a{
   color: white;
   box-shadow: 0px 0px 0px black;
 }
+.header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a.removestyle:hover {
+  background-color: #ca221f;
+}
 
-
-  /*=================================*/
-  
+/*مينيو محافظات*/
+.header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu .li-display{
+  margin-left: 10px;
+}
+.header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu .li-display li{
+  display: block;
+}
+  /*=================================*/ 
 
 
 
@@ -779,7 +799,7 @@ footer .footer-area-bottom {
 }
 .copyright{
   font-size: 12px;
-  color: #aeaeae;
+  color: white;
   display: block;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
@@ -824,6 +844,19 @@ ul.footer-social {
   background-color: rgb(5, 138, 5);
 }
 
+.post-share-area ul.social-default li a.whatsapp {
+  background: rgb(5, 138, 5);
+  border: 2px solid rgb(5, 138, 5);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.post-share-area ul.social-default li a.whatsapp:hover {
+  background: transparent;
+  color: rgb(5, 138, 5);
+}
 /*==========*/   
 
 
