@@ -188,8 +188,15 @@ body {
   }
   .it-logo{
     height: 20px !important;
-    width: 25px !important;
-    padding-right: 5px !important;
+    width: 20px !important;
+  }
+ }
+ @media (max-width: 767px){
+  .related-container{/*اقرا ايضا*/
+    width: 100% !important; 
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-bottom: 10px !important;
   }
  }
  @media (max-width: 992px){
@@ -815,8 +822,8 @@ footer .footer-area-bottom {
 }
 .it-logo{
   height: 30px;
-  width: 35px;
-  padding-right: 8px;
+  width: 30px;
+  background-color: #eadede;
 }
 footer .footer-area-top {
   padding: 30px 0 0px;
@@ -831,7 +838,7 @@ ul.footer-social {
 
 
 
-/*  المقالات*/
+/*صفحة الخبر*/
 .h-article{
   height: 95px;
 }
@@ -871,12 +878,11 @@ ul.footer-social {
 
 .video-container{
   width: 80%;
-  height: 300px;
+  
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-}
-/*==========*/   
+}  
 
 
 .h-articles{
@@ -901,15 +907,38 @@ ul.footer-social {
     font-size: 10px;
     line-height: 20px;
   }
-  a.color-article{
+  .color-article{
     color: #d20808 !important;
   }
-  a.color-article:hover{
-    color: black !important;
-  }
-
-  /*==========*/   
   
+
+/*اقرا ايضا - صفحة الخبر*/
+.h-related{
+  width: 60px;
+  height: 60px;
+}
+.rel{
+  padding: 3px; 
+  color: red;
+}
+.media .media-body .p-related{
+  font-size: 10px;
+  font-weight: bold; 
+  margin-bottom: 0px; 
+  line-height: 1.7;
+}
+.related-container{
+  width: 220px; 
+  height: 330px; 
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+/*=================*/   
+  
+
+
+
 
 /*مقالات واراء*/
 .h-authors{
@@ -964,8 +993,10 @@ ul.footer-social {
     width: 315px;
     height: 245px;
   }
-        
-           
+  
+
+
+
 
        
         
