@@ -877,7 +877,7 @@ ul.footer-social {
 }
 
 .video-container{
-  width: 80%;
+  width: 90%;
   
   margin-bottom: 30px;
   margin-left: auto;
@@ -910,7 +910,13 @@ ul.footer-social {
   .color-article{
     color: #d20808 !important;
   }
-  
+  p.color-subarticle{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bolder;
+    
+  }
 
 /*اقرا ايضا - صفحة الخبر*/
 .h-related{
@@ -922,17 +928,16 @@ ul.footer-social {
   color: red;
 }
 .media .media-body .p-related{
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold; 
   margin-bottom: 0px; 
   line-height: 1.7;
 }
 .related-container{
   width: 220px; 
-  height: 330px; 
+  height: 250px; 
   float: left;
   margin-right: 20px;
-  margin-bottom: 5px;
 }
 /*=================*/   
   
