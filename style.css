@@ -4814,6 +4814,7 @@ ul.archive-list2 li span {
 ul.author-social-style1 li {
   height: 40px;
   width: 40px;
+  background-color: #eae5e559;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
