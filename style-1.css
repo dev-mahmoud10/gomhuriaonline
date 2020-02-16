@@ -950,6 +950,10 @@ ul.footer-social {
   float: left;
   margin-right: 20px;
 }
+.h-author-article{
+  width: 110px;
+  height: 110px;
+}
 /*=================*/   
   
 
@@ -978,7 +982,10 @@ ul.footer-social {
   bottom: 0;
 }
 .bg-hov:hover{
-  background-color: #ffe6e6;
+  background-color: #fcf3f3;
+  }
+a .name-hov:hover{
+  color: #e53935 !important;
 }
 .img-overlay-70-a {
   position: relative;
