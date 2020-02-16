@@ -318,7 +318,6 @@ footer .footer-box ul.popular-categories li a{
   line-height: 2;
   margin-left: 15px;
 }
-
 /*==================*/
 
 
@@ -326,70 +325,70 @@ footer .footer-box ul.popular-categories li a{
 
 /*header 1*/
 .top-bar-top2 {
-  background-color: #d20808;
-  box-shadow: 0px 1px 1px black;
-  }
-  .header-style5{
-    position: relative;
-  }
-  .ne-main-menu nav ul li a:hover {
-    background-color: #d20808;
-    color: white !important;
-   }
-   .logoarea-container{
-     padding: 2% 0.5%;
-     width: 1100px;
-   }
-   .p-logoarea{
-    text-align: center;
-    margin: 0px;
-    line-height: 20px;
-  }
-  .editor-logoarea{
-    margin-top: 10px;
-  }
-  .ceo-font{
-    font-size: 14px;
-  }
-  .logoarea-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .left-3{
-    left: 3%;
-  }
-  .h-topmenu{
-    height: 32px;
-  }
-  ul.news-info-list {
-    padding: 4px 0;
-  }
-  ul.header-social {
-    padding: 3px 0;
-  }
-  
-  .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-    padding: 11px 13px;
-  }
-  .header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a {
-    padding: 11px 15px 10px 14px;
-    background-color: #d20808;
-    color: white;
-    box-shadow: 0px 1px 1px black;
-  }
-  .dropdown-toggle::after{
-    margin-right: 5px;
-  }
-  
-  /*nested dropdown menu*/
-  .header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li > ul.nested {
-    display: none;
+background-color: #d20808;
+box-shadow: 0px 1px 1px black;
 }
-  .header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li:hover > ul.nested {
-    background-color: #e53935;
-    right: 90px;
-    display: block;
+.header-style5{
+  position: relative;
+}
+.ne-main-menu nav ul li a:hover {
+  background-color: #d20808;
+  color: white !important;
+  }
+  .logoarea-container{
+    padding: 2% 0.5%;
+    width: 1100px;
+  }
+  .p-logoarea{
+  text-align: center;
+  margin: 0px;
+  line-height: 20px;
+}
+.editor-logoarea{
+  margin-top: 10px;
+}
+.ceo-font{
+  font-size: 14px;
+}
+.logoarea-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-3{
+  left: 3%;
+}
+.h-topmenu{
+  height: 32px;
+}
+ul.news-info-list {
+  padding: 4px 0;
+}
+ul.header-social {
+  padding: 3px 0;
+}
+
+.header-style5 .main-menu-area .ne-main-menu nav ul li a {
+  padding: 11px 13px;
+}
+.header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a {
+  padding: 11px 15px 10px 14px;
+  background-color: #d20808;
+  color: white;
+  box-shadow: 0px 1px 1px black;
+}
+.dropdown-toggle::after{
+  margin-right: 5px;
+}
+
+/*nested dropdown menu*/
+.header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li > ul.nested {
+  display: none;
+}
+.header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li:hover > ul.nested {
+  background-color: #e53935;
+  right: 90px;
+  display: block;
 }
 .header-style5 .main-menu-area .ne-main-menu nav ul li:first-child a.removestyle {
   padding: 0px 0px ;
@@ -426,7 +425,19 @@ footer .footer-box ul.popular-categories li a{
   padding-right: 50px;
   padding-bottom: 20px;
 }
-
+.editor-area{
+  font-size: 15px;
+  font-family: 'thesans-bold';
+  color: white;
+  position: absolute;
+  top: 78px;
+  right: 170px;
+  text-align: right;
+  width: 150px;
+}
+.editor-area:hover{
+  color: #f34d4d;
+}
 /*
 .swiper-container2 {
   width: 100%;
