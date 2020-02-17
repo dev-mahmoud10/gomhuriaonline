@@ -954,6 +954,19 @@ ul.footer-social {
   width: 110px;
   height: 110px;
 }
+
+.auth-img{
+  width: 110px;
+  height: 110px; 
+  border: #e53935 solid 1px;
+}
+.name-hov{
+  color: black; 
+  font-weight: bold;
+}
+a .name-hov:hover{
+color: #e53935 !important;
+}
 /*=================*/   
   
 
@@ -984,9 +997,7 @@ ul.footer-social {
 .bg-hov:hover{
   background-color: #fcf3f3;
   }
-a .name-hov:hover{
-  color: #e53935 !important;
-}
+ 
 .img-overlay-70-a {
   position: relative;
 }
