@@ -29,26 +29,25 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <!-- Font-awesome CSS-->
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- Owl Caousel CSS -->
-        <link rel="stylesheet" href="vendor/OwlCarousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendor/OwlCarousel/owl.theme.default.min.css">
+       
         <!-- Main Menu CSS -->
         <link rel="stylesheet" href="css/meanmenu.min.css">
-        <!-- Nivo Slider CSS-->
-        <link rel="stylesheet" href="vendor/slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="vendor/slider/css/preview.css" type="text/css" media="screen" />
+       
         <!-- Magnific CSS -->
         <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
         <!-- Switch Style CSS -->
         <link rel="stylesheet" href="css/hover-min.css">
          <!-- Link Swiper's CSS -->
-         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-         
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
          
         <!-- Custom CSS -->
         
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style-1.css">
+        <link rel="stylesheet" href="style-mobile.css">
         <link rel="stylesheet/less" type="text/css" href="style.less" />
 
         <!-- For IE -->
@@ -56,37 +55,21 @@
 
         <!-- Modernizr Js -->
         <script src="js/modernizr-2.8.3.min.js"></script>
-        <!--jssor.js-->
-        <script src="./js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
-        <!--swiper.js-->
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
            
     </head>
 
     <body >
-        <div id="fb-root"></div>
-
-        <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an 
-        <strong>outdated</strong> browser. Please 
-        <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-    </p>
-    <![endif]-->
         
-        <!-- Preloader Start Here
-        <div id="preloader"></div>
-        Preloader End Here -->
+
+       
+        
+       
         <div id="wrapper">
             
-           <div class="asideads">
-               <img src="./img/banner/asidead1.jpg" >
-           </div>
-           <div class="asideads2">
-            <img src="./img/banner/asidead2.jpg" >
-           </div>
-            
+           
             
              <!-- Header Area Start Here -->
              <header>
@@ -102,8 +85,7 @@
                                             <li>
                                                 <i class="fa fa-calendar" aria-hidden="true"></i><span id="current_date"></span></li>
                                             
-                                            <li>
-                                                <i class="fa fa-cloud" aria-hidden="true"></i>29&#8451; القاهرة, مصر </li>
+                                            
                                         </ul>
                                     </div>
                                     <div class="col-lg-3 d-none d-lg-block h-topmenu">
@@ -228,8 +210,7 @@
                                                                                                                                                         
                                                         <li>
                                                             <a href="#">محافظات</a>
-                                                            <ul class="ne-dropdown-menu d-flex" style="width: 500px;" >
-                                                              <div class="li-display" >
+                                                            <ul class="ne-dropdown-menu " style="width: 500px;" >
                                                                 <li  >
                                                                     <a class="removestyle" href="post-style-1.html">الجيزة</a>
                                                                 </li>
@@ -252,8 +233,7 @@
                                                                 <li>
                                                                     <a href="single-news-2.html">جنوب سيناء</a>
                                                                 </li>
-                                                            </div>
-                                                            <div class="li-display" >
+                                                           
                                                                 <li  >
                                                                     <a class="removestyle" href="post-style-1.html">قنا</a>
                                                                 </li>
@@ -276,8 +256,7 @@
                                                                     <a href="single-news-2.html">شمال سيناء</a>
                                                                 </li>
 
-                                                            </div>
-                                                            <div class="li-display" >
+                                                          
                                                                 <li  >
                                                                     <a class="removestyle" href="post-style-1.html">المنوفية</a>
                                                                 </li>
@@ -296,8 +275,8 @@
                                                                 <li>
                                                                     <a href="single-news-2.html">القليوبية</a>
                                                                 </li>
-                                                            </div>
-                                                            <div class="li-display" >
+                                                            
+                                                        
                                                                 <li  >
                                                                     <a class="removestyle" href="post-style-1.html">الاسكندرية</a>
                                                                 </li>
@@ -316,8 +295,7 @@
                                                                 <li>
                                                                     <a href="single-news-2.html">البحر الأحمر </a>
                                                                 </li>
-                                                            </div>
-                                                           
+                                                         
                                                             </ul>
                                                         </li>
 
@@ -419,14 +397,7 @@
                                 </div>
                             </div>
 
-                            <!--skyads start here-->
-                            <div class="asideads">
-                                <img src="./img/banner/asidead1.jpg" >
-                            </div>
-                            <div class="asideads2">
-                             <img src="./img/banner/asidead2.jpg" >
-                            </div>
-                            <!--skyads End here-->
+                          
                       
                     </div>
                 </div>
@@ -437,10 +408,10 @@
             
             <!-- أخبار عاجلة Area Start Here -->
             <section class="container">
-                <div class="box-layout bg-accent">
+                <div class="box-layout bg-accent pt-10">
                     <div class="row no-gutters d-flex align-items-center">
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                            <div class="topic-box mt-4 mb-5">عاجل </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-3">
+                            <div class="topic-box mt-4 mb-5" style="padding: 0 10px;">عاجل </div>
                         </div>
                         <div class="col-lg-10 col-md-9 col-sm-8 col-7">
                             <div class="feeding-text-dark">
@@ -467,284 +438,78 @@
             <section class="container">
                 <div class="bg-accent box-layout pb-10 pt-10">
                 <div class="row">
-                    
-                    <script type="text/javascript">
-                        window.jssor_1_slider_init = function() {
+                    <!-- Swiper -->
+                    <div class="swiper-container-gallery">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/dalia.jpg)">
+                            <div class="mask-content-xs">
+                                <h2 class="title-medium-light">
+                                    <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/alzahd.jpg)">
+                            <div class="mask-content-xs">
+                                <h2 class="title-medium-light">
+                                    <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/hend.png)">
+                            <div class="mask-content-xs">
+                                <h2 class="title-medium-light">
+                                    <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/dalia.jpg)">
+                            <div class="mask-content-xs">
+                                <h2 class="title-medium-light">
+                                    <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/shereen.jpg)">
+                            <div class="mask-content-xs">
+                                <h2 class="title-medium-light">
+                                    <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/mona.jpg)">
+                            <div class="mask-content-xs">
+                                <h2 class="title-medium-light">
+                                    <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
+                                </h2>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
 
-                            var jssor_1_SlideshowTransitions = [
-                            {$Duration:1200,$Zoom:1,$Easing:{$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad},$Opacity:2},
-                            {$Duration:1000,$Zoom:11,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
-                            {$Duration:1200,$Zoom:1,$Rotate:1,$During:{$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Easing:{$Zoom:$Jease$.$Swing,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$Swing},$Opacity:2,$Round:{$Rotate:0.5}},
-                            {$Duration:1000,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InQuint,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-                            {$Duration:1200,x:0.5,$Cols:2,$Zoom:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-                            {$Duration:1200,x:4,$Cols:2,$Zoom:11,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
-                            {$Duration:1200,x:0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Opacity:2,$Round:{$Rotate:0.5}},
-                            {$Duration:1000,x:-4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InQuint,$Zoom:$Jease$.$InQuart,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-                            {$Duration:1200,x:-0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Opacity:2,$Round:{$Rotate:0.5}},
-                            {$Duration:1000,x:4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InQuint,$Zoom:$Jease$.$InQuart,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-                            {$Duration:1200,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
-                            {$Duration:1000,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Top:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.7}},
-                            {$Duration:1200,x:-4,y:2,$Rows:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Row:28},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
-                            {$Duration:1200,x:1,y:2,$Cols:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:19},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.8}}
-                            ];
-
-                            var jssor_1_options = {
-                            $AutoPlay: 1,
-                            $SlideshowOptions: {
-                                $Class: $JssorSlideshowRunner$,
-                                $Transitions: jssor_1_SlideshowTransitions,
-                                $TransitionsOrder: 1
-                            },
-                            $ArrowNavigatorOptions: {
-                                $Class: $JssorArrowNavigator$
-                            },
-                            $ThumbnailNavigatorOptions: {
-                                $Class: $JssorThumbnailNavigator$,
-                                $Rows: 2,
-                                $SpacingX: 14,
-                                $SpacingY: 12,
-                                $Orientation: 2,
-                                $Align: 156
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('.swiper-container-gallery', {
+                        effect: 'cube',
+                        grabCursor: true,
+                        loop: true,
+                        
+                        cubeEffect: {
+                            shadow: true,
+                            slideShadows: true,
+                            shadowOffset: 20,
+                            shadowScale: 0.94,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                        },
+                        autoplay: {
+                            delay: 5000,
+                            disableOnInteraction: false,
                             }
-                            };
-
-                            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-                            /*#region responsive code begin*/
-
-                            var MAX_WIDTH = 960;
-
-                            function ScaleSlider() {
-                                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                                var containerWidth = containerElement.clientWidth;
-
-                                if (containerWidth) {
-
-                                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                                }
-                                else {
-                                    window.setTimeout(ScaleSlider, 30);
-                                }
-                            }
-
-                            ScaleSlider();
-
-                            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-                            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-                            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-                            /*#endregion responsive code end*/
-                        };
+                        });
                     </script>
-                    <style>
-                        /*jssor slider loading skin spin css*/
-                        .jssorl-009-spin img {
-                            animation-name: jssorl-009-spin;
-                            animation-duration: 1.6s;
-                            animation-iteration-count: infinite;
-                            animation-timing-function: linear;
-                        }
-
-                        @keyframes jssorl-009-spin {
-                            from { transform: rotate(0deg); }
-                            to { transform: rotate(360deg); }
-                        }
-
-                        /*jssor slider arrow skin 093 css*/
-                        .jssora093 {display:block;position:absolute;cursor:pointer;}
-                        .jssora093 .c {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
-                        .jssora093 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
-                        .jssora093:hover {opacity:.5;}
-                        .jssora093.jssora093dn {opacity:.6;}
-                        .jssora093.jssora093ds {opacity:.3;pointer-events:none;}
-
-                        /*jssor slider thumbnail skin 101 css*/
-                        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
-                        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
-                        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
-                        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
-                        .jssort101 .p:hover{padding:2px;}
-                        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
-                        .jssort101 .p:hover.pdn{padding:0;}
-                        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
-                        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
-                        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
-                        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
-                        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
-                    </style>
-
-
-                    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:720px;height:300px;overflow:hidden;visibility:hidden;background-color:#24262e;">
-                        <!-- Loading Screen -->
-                        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
-                        </div>
-                        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:240px;width:480px;height:300px;overflow:hidden;">
-                            
-                            <div>
-                                <div class="img-overlay-70">
-                                    <img class="img-overlay-70" data-u="image" src="img/news/iskan/iskan4.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-persian-green mb-10">إسكان وعقارات</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">طرح شقق الإسكان الإجتماعي بمدينة القاهرة الجديدة </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/iskan/iskan4.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/news/sport/salah.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-azure-radiance2 mb-10">رياضة</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">ليفربول يفوز بكأس العالم للأندية بقيادة صلاح </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/sport/salah.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/newsimgs/montakhab640x480.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-azure-radiance2 mb-10">رياضة</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">منتخب مصر للشباب يفوز بكأس العالم للمرة الثانية </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/newsimgs/montakhab640x480.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/newsimgs/06/sisi-780x405.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-cinnabar mb-10">سياسة</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">الرئيس السيسي يفتتح قاعدة برنيس البحرية </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/newsimgs/06/sisi-780x405.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/news/fnoon/joker.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-cinnabar mb-10">فن و ثقافة</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">فيلم الجوكر يحقق أرباح خيالية في العالم </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/fnoon/joker.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/news/iskan/iskan2.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-persian-green mb-10 mr-15">إسكان و عقارات</div>
-                                    <h2 class="title-medium-light mr-15" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">وزارة الاسكان تطرح شقق جديدة بمدينة بدر</a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/iskan/iskan2.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/news/fnoon/nancy.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-apple3 mb-10">لايف ستايل</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">فيلم الفلوس يحقق أعلي إيرادات فالسينما المصرية </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/fnoon/nancy.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/news/auto/car3.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-ecstasy3 mb-10">الجمهورية أوتو</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">سيارات تسلا الجديدة تقدر تشحنها في منزلك </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/auto/car3.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">
-                                <img data-u="image" src="img/news/auto/tech2.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-apple mb-10">تكنولوجيا</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">ايفون تحقق أكبر مبيعات في مصر خلال 2020 </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/auto/tech2.jpg" />
-                            </div>
-
-                            <div>
-                                <div class="img-overlay-70">                                   
-                                <img data-u="image" src="img/news/governator/govern2.jpg" />
-                                </div>
-                                <div class="mask-content-xs">
-                                    <div class="topic-box-sm color-azure-radiance mb-10">محافظات</div>
-                                    <h2 class="title-medium-light" style="padding-bottom: 3%;">
-                                        <a href="single-news-3.html">فيلم الفلوس يحقق أعلي إيرادات فالسينما المصرية </a>
-                                    </h2>
-                                </div>
-                                <img data-u="thumb" src="img/news/governator/govern2.jpg" />
-                            </div>
-
-                        </div>
-                        <!-- Thumbnail Navigator -->
-                        <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;top:0px;width:240px;height:300px;background-color:#000;" data-autocenter="2" data-scale-left="0.75">
-                            <div data-u="slides">
-                                <div data-u="prototype" class="p" style="width:99px;height:66px;">
-                                    <div data-u="thumbnailtemplate" class="t"></div>
-                                    <svg viewbox="0 0 16000 16000" class="cv">
-                                        <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
-                                        <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
-                                        <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Arrow Navigator -->
-                        <div data-u="arrowleft" class="jssora093" style="width:50px;height:50px;top:0px;left:250px;" data-autocenter="2">
-                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                <circle class="c" cx="8000" cy="8000" r="5920"></circle>
-                                <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
-                                <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
-                            </svg>
-                        </div>
-                        <div data-u="arrowright" class="jssora093" style="width:50px;height:50px;top:0px;right:9px;" data-autocenter="2">
-                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                <circle class="c" cx="8000" cy="8000" r="5920"></circle>
-                                <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
-                                <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
-                            </svg>
-                        </div>
-    </div>
-    <script type="text/javascript">jssor_1_slider_init();
-    </script>
-    <!-- #endregion Jssor Slider End -->
                 </div>
                 </div>
             </section>
@@ -754,7 +519,7 @@
 
             <!-- أخبار مصر Area Start Here -->
             <section class=" container ">
-                <div class="bg-accent  box-layout pt-20">
+                <div class="bg-accent  box-layout " style="padding-top: 45px;">
                     <div class="row">
                         <div class="col-12">
                             <div class="mb-10-r ne-isotope">
@@ -764,7 +529,7 @@
                                             <a href="#" data-filter=".masr"  class="current"onclick="masr()">أخبار مصر</a>
                                             <a href="#" data-filter=".economic" onclick="economic()">إقتصاد</a>
                                             <a href="#" data-filter=".travel" onclick="travel()">سياحة</a>
-                                            <a href="#" data-filter=".street" onclick="banks()">بنوك ومؤسسات مالية </a>
+                                            <a href="#" data-filter=".street" onclick="banks()">بنوك</a>
                                         </div>
                                         <div  class="more-info-link">
                                             <a id="more" href="https://www.twitter.com/" target="_blank" style="color: red;">  المزيد
@@ -1473,7 +1238,7 @@
             
             <!-- تعليم Story Area Start Here -->
             <section class="container">
-                <div class=" bg-accent box-layout">
+                <div class=" bg-accent box-layout pt-20">
                     <div class="row">
                        
                         <div class="col-lg-8 col-md-12">
@@ -1628,88 +1393,69 @@
                         </div>
                     </div>
                     <!-- Swiper -->
-                    <div class="container">
+                 
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/tamer.jpg)">
-                                    <div class="mask-content-xs">
-                                        <h2 class="title-medium-light">
+                                    <div class="fan-text">
+                                        <h2 class="title-medium-light text-center">
                                             <a href="single-news-3.html">فيلم الفلوس يحقق أعلي إيرادات فالسينما المصرية </a>
                                         </h2>
                                     </div>
                                 </div>
 
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/shereen.jpg)">
-                                    <div class="mask-content-xs">
+                                    <div class="fan-text" >
                                        
-                                        <h2 class="title-medium-light">
+                                        <h2 class="title-medium-light text-center" >
                                             <a href="single-news-3.html">شيرين تحيي حفل غنائي فالرياض </a>
                                         </h2>
                                     </div>
                                 </div>
 
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/joker.jpg)">
-                                    <div class="mask-content-xs">
+                                    <div class="fan-text">
                                        
-                                        <h2 class="title-medium-light">
+                                        <h2 class="title-medium-light text-center">
                                             <a href="single-news-3.html">الجوكر يحقق أعلي إيرادات في العالم </a>
                                         </h2>
                                     </div>
                                 </div>
 
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/lina.jpg)">
-                                    <div class="mask-content-xs">
+                                    <div class="fan-text">
                                        
-                                        <h2 class="title-medium-light">
+                                        <h2 class="title-medium-light text-center">
                                             <a href="single-news-3.html">لينا الفيشاوي تخلع ملابسها في صور فاضحة </a>
                                         </h2>
                                     </div>
                                 </div>
 
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/reem.jpg)">
-                                    <div class="mask-content-xs">
+                                    <div class="fan-text">
                                        
-                                        <h2 class="title-medium-light">
+                                        <h2 class="title-medium-light text-center">
                                             <a href="single-news-3.html">ريم البارودي تشعل السوشيال ميديا بصورها </a>
                                         </h2>
                                     </div>
                                 </div>
 
                                 <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/saqa.jpg)">
-                                    <div class="mask-content-xs">
+                                    <div class="fan-text">
                                         
-                                        <h2 class="title-medium-light">
+                                        <h2 class="title-medium-light text-center">
                                             <a href="single-news-3.html">طلاق أحمد السقا من زوجته </a>
                                         </h2>
                                     </div>
                                 </div>
-
-                                <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/ashraf.jpeg)">
-                                    <div class="mask-content-xs">
-                                       
-                                        <h2 class="title-medium-light">
-                                            <a href="single-news-3.html">أشرف ذكي يكرم نجوم الفن في مهرجان القاهرة السينمائي </a>
-                                        </h2>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide img-overlay-70" style="background-image:url(./img/news/fnoon/ramy.jpeg)">
-                                    <div class="mask-content-xs">
-                                       
-                                        <h2 class="title-medium-light">
-                                            <a href="single-news-3.html">رامي يوسف يفوز بجائزة أفضل مطرب في عام 2020 </a>
-                                        </h2>
-                                    </div>
-                                </div>
-
-                                
+                            
                               
                             </div>
                             <!-- Add Pagination -->
                             <div class="swiper-pagination"  ></div>
                         </div>
-                    </div>
+                
     
   
                     <!-- Initialize Swiper -->
@@ -1717,12 +1463,14 @@
                     var swiper = new Swiper('.swiper-container', {
                         effect: 'coverflow',
                         grabCursor: true,
+                        initialSlide: 3,
+                        loop: true,
                         centeredSlides: true,
                         slidesPerView: 'auto',
                         coverflowEffect: {
                         rotate: 50,
-                        stretch: 0,
-                        depth: 100,
+                        stretch: 5,
+                        depth: 300,
                         modifier: 1,
                         slideShadows : true,
                         },
@@ -2380,121 +2128,14 @@
                                     </div>
                                 </div>
                                 -->
-                                <div class="sidebar-box">
-                                    <div class="topic-border color-cod-gray mb-15">
-                                        <div class="topic-box-lg color-cod-gray">أحدث الأخبار</div>
-                                    </div>
-                                    <div class="img-overlay-70 img-scale-animate">
-                                        <img src="img/news/latest news/sisi.jpg" alt="news" class="img-fluid width-100">
-                                        <div class="topic-box-top-sm">
-                                            <div class="topic-box-sm color-cod-gray mb-20">سياسة</div>
-                                        </div>
-                                        <div class="mask-content-xs">
-                                           
-                                            <h3 class="title-medium-light size-lg">
-                                                <a href="single-news-1.html" >السيسي يلتقي ببوتين في قصر الرئاسة اليوم.</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="mt-20">
-                                                <div class="position-relative">
-                                                    <a href="single-news-1.html" class="img-opacity-hover mb-10">
-                                                        <img src="img/news/latest news/angham.jpg" alt="ad" class="img-fluid h-latest">
-                                                    </a>
-                                                    <div class="topic-box-top-xs">
-                                                        <div class="topic-box-sm color-cod-gray mb-20">فن</div>
-                                                    </div>
-                                                </div>
-                                                <h5 class="title-medium-dark size-md mb-none">
-                                                    <a href="single-news-1.html" class="latest-color">من 250 لـ 1500 جنيه تطور أسعار الأوبرا .</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mt-20">
-                                                <div class="position-relative">
-                                                    <a href="single-news-1.html" class="img-opacity-hover mb-10">
-                                                        <img src="img/news/latest news/borsa.jpg" alt="ad" class="img-fluid h-latest">
-                                                    </a>
-                                                    <div class="topic-box-top-xs">
-                                                        <div class="topic-box-sm color-cod-gray mb-20">إقتصاد</div>
-                                                    </div>
-                                                </div>
-                                                <h5 class="title-medium-dark size-md mb-none">
-                                                    <a href="single-news-1.html" class="latest-color" >الدولار ينخفض أمام الجنيه المصري.</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mt-20">
-                                                <div class="position-relative">
-                                                    <a href="single-news-1.html" class="img-opacity-hover mb-10">
-                                                        <img src="img/news/latest news/hamo.jpg"  alt="ad" class="img-fluid h-latest">
-                                                    </a>
-                                                    <div class="topic-box-top-xs">
-                                                        <div class="topic-box-sm color-cod-gray mb-20">فن</div>
-                                                    </div>
-                                                </div>
-                                                <h5 class="title-medium-dark size-md mb-none">
-                                                    <a href="single-news-1.html " class="latest-color">الموسيقيين تجد حلا للإعتراف بحمو بيكا .</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mt-20">
-                                                <div class="position-relative">
-                                                    <a href="single-news-1.html" class="img-opacity-hover mb-10">
-                                                        <img src="img/news/fnoon/ramadan.jpg" alt="ad" class="img-fluid h-latest">
-                                                    </a>
-                                                    <div class="topic-box-top-xs">
-                                                        <div class="topic-box-sm color-cod-gray mb-20">فن</div>
-                                                    </div>
-                                                </div>
-                                                <h5 class="title-medium-dark size-md mb-none">
-                                                    <a href="single-news-1.html" class="latest-color">أفلام تجاوزت ال 71 مليون.. إيرادات عيد  .</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mt-20">
-                                                <div class="position-relative">
-                                                    <a href="single-news-1.html" class="img-opacity-hover mb-10">
-                                                        <img src="img/news/latest news/angham.jpg" alt="ad" class="img-fluid h-latest">
-                                                    </a>
-                                                    <div class="topic-box-top-xs">
-                                                        <div class="topic-box-sm color-cod-gray mb-20">فن</div>
-                                                    </div>
-                                                </div>
-                                                <h5 class="title-medium-dark size-md mb-none">
-                                                    <a href="single-news-1.html" class="latest-color">من 250 لـ 1500 جنيه تطور أسعار الأوبرا .</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mt-20">
-                                                <div class="position-relative">
-                                                    <a href="single-news-1.html" class="img-opacity-hover mb-10">
-                                                        <img src="img/news/latest news/borsa.jpg" alt="ad" class="img-fluid h-latest">
-                                                    </a>
-                                                    <div class="topic-box-top-xs">
-                                                        <div class="topic-box-sm color-cod-gray mb-20">إقتصاد</div>
-                                                    </div>
-                                                </div>
-                                                <h5 class="title-medium-dark size-md mb-none " >
-                                                    <a href="single-news-1.html" class="latest-color">الدولار ينخفض أمام الجنيه المصري.</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                   
                 </div>
             </section>
             <!-- أحزاب ونواب & رياضةArea End Here -->
+
 
 
 
@@ -2709,151 +2350,11 @@
                                 </div>
                             </div>
 
-                            <div class="sidebar-box">
-                                <div class="topic-border color-cod-gray mb-20">
-                                    <div class="topic-box-lg color-cod-gray">أحدث الأخبار</div>
-                                </div>
-                                <div class="row show-item4-md ">
-                                    <div class="col-lg-6 col-md-4 col-sm-6 col-6">
-                                        <div class="position-relative ">
-                                            <a href="single-news-1.html" class="mb-10 img-opacity-hover">
-                                                <img src="img/news/fnoon/lina.jpg" alt="ad" class="img-fluid m-auto width-100 h-latest">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">فن</div>
-                                            </div>
-                                            <h5 class="title-medium-dark size-md mb-none">
-                                                <a href="single-news-1.html" class="latest-color">لينا الفيشاوي في صور فاضحة.</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-4 col-sm-6 col-6">
-                                        <div class="position-relative ">
-                                            <a href="single-news-2.html" class="mb-10 img-opacity-hover">
-                                                <img src="img/news/fnoon/reem.jpg" alt="ad" class="img-fluid m-auto width-100 h-latest">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">فن</div>
-                                            </div>
-                                            <h5 class="title-medium-dark size-md mb-none">
-                                                <a href="single-news-2.html" class="latest-color">ريم البارودي تشعل السوشيال ميديا</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-4 col-sm-6 col-6">
-                                        <div class="position-relative mt-20">
-                                            <a href="single-news-3.html" class="mb-10 img-opacity-hover">
-                                                <img src="img/news/sport/FIT1.jpg" alt="ad" class="img-fluid m-auto width-100 h-latest">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">لايف ستايل</div>
-                                            </div>
-                                            <h5 class="title-medium-dark size-md mb-none">
-                                                <a href="single-news-3.html" class="latest-color">10 تمارين للحفاظ علي صحة القلب.</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-4 col-sm-6 col-6">
-                                        <div class="position-relative mt-20">
-                                            <a href="single-news-1.html" class="mb-10 img-opacity-hover">
-                                                <img src="img/news/auto/tech2.jpg" alt="ad" class="img-fluid m-auto width-100 h-latest">
-                                            </a>
-                                            <div class="topic-box-top-xs">
-                                                <div class="topic-box-sm color-cod-gray mb-20">تكنولوجيا</div>
-                                            </div>
-                                            <h5 class="title-medium-dark size-md mb-none">
-                                                <a href="single-news-1.html" class="latest-color">ايفون تتصدر قائمة المبيعات في مصر.</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                           
                                 
-                            <div class="sidebar-box">
-                                <div class="topic-border color-cinnabar mb-10">
-                                    <div class="topic-box-lg color-cinnabar"><a href="#" style="color: #fff;">ألبوم الصور</a></div>
-                                </div>
-                                <!-- Swiper -->
-                                <div class="swiper-container-gallery">
-                                    <div class="swiper-wrapper">
-                                    <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/dalia.jpg)">
-                                        <div class="mask-content-xs">
-                                            <h3 class="title-medium-light">
-                                                <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/alzahd.jpg)">
-                                        <div class="mask-content-xs">
-                                            <h3 class="title-medium-light">
-                                                <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/hend.png)">
-                                        <div class="mask-content-xs">
-                                            <h3 class="title-medium-light">
-                                                <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/sherif-monier.jpg)">
-                                        <div class="mask-content-xs">
-                                            <h3 class="title-medium-light">
-                                                <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/shereen.jpg)">
-                                        <div class="mask-content-xs">
-                                            <h3 class="title-medium-light">
-                                                <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide img-overlay-70" style="background-image:url(./img/party/mona.jpg)">
-                                        <div class="mask-content-xs">
-                                            <h3 class="title-medium-light">
-                                                <a href="single-news-3.html"> مهرجان القاهرة السينمائي 2020</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <!-- Add Pagination -->
-                                    <div class="swiper-pagination"></div>
-                                </div>
-
-                                <!-- Initialize Swiper -->
-                                <script>
-                                    var swiper = new Swiper('.swiper-container-gallery', {
-                                    effect: 'cube',
-                                    grabCursor: true,
-                                    cubeEffect: {
-                                        shadow: true,
-                                        slideShadows: true,
-                                        shadowOffset: 20,
-                                        shadowScale: 0.94,
-                                    },
-                                    pagination: {
-                                        el: '.swiper-pagination',
-                                    },
-                                    autoplay: {
-                                        delay: 2500,
-                                        disableOnInteraction: false,
-                                        }
-                                    });
-                                </script>
-                            </div>
-
+                            
                                 <!--ad start here-->
-                            <div class="sidebar-box pdtop">
-                                <div class="ne-banner-layout1 text-center">
-                                    <a href="#">
-                                        <img src="img/banner/ad4-watch.jpg" alt="ad" class="img-fluid med-rectangle">
-                                    </a>
-                                </div>
-                            </div>
+                           
                           
                         </div>
                        <!--تواصل معنا End here-->
@@ -2875,105 +2376,7 @@
             </section>
             <!--  لايف ستايل + فتافيت ماما +حول العالم Area End Here -->
 
-            <!-- تقارير وتحقيقات  Area Start Here -->
-            <section class="container">
-                <div class=" bg-body box-layout pt-10">
-                    <div class="row ">
-                        <div class="col-12">
-                            <div class="topic-border color-scampi mb-20 width-100">
-                                <div class="topic-box-lg color-scampi">تقارير و تحقيقات</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ne-carousel nav-control-top2 color-cod-gray" data-loop="true" data-items="4" data-margin="30" data-autoplay="true"
-                        data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="false" data-nav="true" data-nav-speed="false"
-                        data-r-x-small="1" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="2" data-r-x-medium-nav="true"
-                        data-r-x-medium-dots="false" data-r-small="2" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="3"
-                        data-r-medium-nav="true" data-r-medium-dots="false" data-r-Large="4" data-r-Large-nav="true" data-r-Large-dots="false">
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/reports/تاجيل جديد لقانون زواج الاطفال.jpg" alt="news" class="img-fluid h-report">
-                               
-                            </div>
-                            <div class="bg-gray item-shadow-gray box-padding30 h-report-p">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">تأجيل جديد لقانون زواج الأطفال </a>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/reports/سفير الصين.jpg" alt="news" class="img-fluid h-report">
-                                
-                            </div>
-                            <div class="bg-gray item-shadow-gray box-padding30 h-report-p">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">سفير الصين يكذب صور التعذيب المنتشرة علي السوشيال ميديا</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/reports/النواب.jpg" alt="news" class="img-fluid h-report">
-                                
-                            </div>
-                            <div class="bg-gray item-shadow-gray box-padding30">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">النواب يوافق علي التعديلات الجديدة بشأن مخالفات البناء</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/reports/تطهير الاسماعيليه.jpg" alt="news" class="img-fluid h-report">
-                                
-                            </div>
-                            <div class="bg-gray item-shadow-gray box-padding30 h-report-p">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">  تطهير محافظة الاسماعيلية من المخلفات</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- تقارير وتحقيقات  Area End Here -->
+         
 
             <!--   حوادث & محافظات Area Start Here -->
             <section class="container">
@@ -3109,73 +2512,6 @@
 
                 
 
-                                    <!--حوادث-->
-                                        <div class="topic-border color-ecstasy3 mb-20">
-                                            <div class="topic-box-lg color-ecstasy3">حوادث</div>
-                                            <div class="more-info-link">
-                                                <a  href="post-style-1.html">المزيد
-                                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 mb-30">
-                                                <div class="img-overlay-70 img-scale-animate">
-                                                    <img src="img/news/hwadeth/hwadeth-1.jpg" alt="news" class="img-fluid width-100 h-ta3leem">
-                                                </div>
-                                                <ul class="item-box-light-mix item-shadow-gray">
-                                                    <li>
-                                                        <div class="post-date-dark">
-                                                            <ul>
-                                                                <li>
-                                                                    <span>
-                                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                                    </span>February 10, 2017</li>
-                                                            </ul>
-                                                        </div>
-                                                        <h3 class="title-medium-dark">
-                                                            <a href="single-news-3.html">مصرع لاعبه ناثيل جولان، إثر تعرضه لحادث بسيارته عقب انتهاء التدريبات مع فريقه</a>
-                                                        </h3>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6 col-sm-12">
-                                                <div class="media  item-shadow-gray mb-30">
-                                                    <a class="img-opacity-hover width34-lg width30-md" href="single-news-1.html">
-                                                        <img src="img/news/hwadeth/hwadeth-2.jpg" alt="news" class="img-fluid h-w-ta3leem-s">
-                                                    </a>
-                                                    <div class="media-body media-padding15">
-                                                        
-                                                        <h3 class="title-medium-dark mb-none">
-                                                            <a href="single-news-2.html">تناولوا وجبة فاسدة في عزاء بالإسماعيلية.</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                                <div class="media  item-shadow-gray mb-30">
-                                                    <a class="img-opacity-hover width34-lg width30-md" href="single-news-2.html">
-                                                        <img src="img/news/hwadeth/hwadeth-3.jpg" alt="news" class="img-fluid h-w-ta3leem-s">
-                                                    </a>
-                                                    <div class="media-body media-padding15">
-                                                        
-                                                        <h3 class="title-medium-dark mb-none">
-                                                            <a href="single-news-3.html">فتاة المنصورة : النيابة تنتقل لموقع التحرش     
-                                                                .</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                                <div class="media  item-shadow-gray mb-30">
-                                                    <a class="img-opacity-hover width34-lg width30-md" href="single-news-3.html">
-                                                        <img src="img/news/hwadeth/hwadeth-4.jpg" alt="news" class="img-fluid h-w-ta3leem-s">
-                                                    </a>
-                                                    <div class="media-body media-padding15">
-                                                        
-                                                        <h3 class="title-medium-dark mb-none">
-                                                            <a href="single-news-1.html">عاطل المقطم سرق الدراجة النارية .</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
 
                                             <!-- ad  start here-->               
                                             <div class="">
@@ -3206,57 +2542,57 @@
                                             <div role="tabpanel" class="tab-pane fade active show" id="recent">
                                                 
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/a.sa3d.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20 " style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">سعــــــــد سليــــــــم</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>  
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/abdelnabi.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">عبد النبي الشحات</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>    
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/a.dalia.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">داليا الحديدي</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>    
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/a.amr-hafez.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">عمرو حافظ</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
@@ -3266,57 +2602,57 @@
                                             <div role="tabpanel" class="tab-pane fade" id="popular">
                                                 <div role="tabpanel" class="tab-pane fade active show" id="recent">
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/abdelnabi.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">عبد النبي الشحات</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>  
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/a.dalia.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">داليا الحديدي</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>    
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/a.amr-hafez.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">عمرو حافظ</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
                                                     </div>    
                                                     <div class="bg-accent  mb-5 item-shadow-1 bg-hov">
-                                                        <div class="media media-none-xs" style="padding: 5px;">
+                                                        <div class="d-flex" style="padding: 5px;">
                                                             <a href="./مقالات الصحفي.html">
                                                             <img src="img/a.sa3d.jpg" alt="author" class="img-fluid rounded-circle h-writers">
                                                             </a>
-                                                            <div class="media-body pt-4 media-margin20">
+                                                            <div class="media-body media-margin20" style="padding: 5px 15px 5px 5px;">
                                                                 <a href="./مقالات الصحفي.html">
                                                                 <h3 class="size-lg mb-5" style="color: red;">سعــــــــد سليــــــــم</h3>
                                                                 </a>
-                                                                <p style="font-size: 15px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
+                                                                <p style="font-size: 14px; margin-bottom: 10px;"> أعداء مصر في الداخل و الخارج</p>
                                                                 
                                                             </div>
                                                         </div>
@@ -3337,14 +2673,7 @@
                                     
                                 </div>
     
-                                <div class="sidebar-box" style="padding-top: 50px;">
-                                    <div class="ne-banner-layout1 text-center">
-                                        <a href="#">
-                                            <img src="img/banner/ad6-souq.jpg" alt="ad" class="img-fluid halfpage">
-                                        </a>
-                                    </div>
-                                </div>
-                                
+                              
                             
                                 <!--
                                 <div class="sidebar-box">
@@ -3382,812 +2711,14 @@
             </section>
             <!-- محافظات Area End Here -->
 
-            <!--  اسكان وعقارات Area Start Here -->
-            <section class="container">
-                <div class="bg-body box-layout">
-                    <div class="row pdtop">
-                        <div class="col-lg-8 col-md-12 ">
-                            <div class="topic-border color-persian-green mb-20">
-                                <div class="topic-box-lg color-persian-green">إسكان و عقارات</div>
-                                <div class="more-info-link">
-                                    <a href="post-style-1.html">المزيد
-                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-overlay-70 img-scale-animate">
-                                <img src="img/news/iskan/iskan1.jpg" alt="news" class="img-fluid">
-                                <div class="mask-content-lg">
-                                    
-                                    <div class="post-date-light">
-                                        <ul>
-                                            
-                                            <li>
-                                                <span>
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                </span>12 يناير 2020</li>
-                                            <li>
-                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                                <a href="single-news-1.html">25</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title-medium-light size-xl d-none d-sm-block">
-                                        <a href="single-news-1.html">مستشار رئيس الوزراء : سيتم نقل الوزارات الي العاصمة الإدارية الجديدة في 2020</a>
-                                    </h2>
-                                </div>
-                            </div>
-                            
-                            <div class="item-box-light-md-less30 ie-full-width box-shadow-0">
 
-                                <div class="media mb-30 media-none--sm">
-                                    <div class="position-relative width-40">
-                                        <a href="single-news-1.html" class="img-opacity-hover">
-                                            <img src="img/news/iskan/iskan2.jpg" alt="news" class="img-fluid h-iskan-s">
-                                        </a>
-                                       
-                                    </div>
-                                    <div class="media-body p-mb-none-child media-margin30">
-                                        <div class="post-date-dark">
-                                            <ul>
-                                                
-                                                <li>
-                                                    <span>
-                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                    </span>12 يناير 2020</li>
-                                            </ul>
-                                        </div>
-                                        <h3 class="title-semibold-dark size-lg mb-15 mb5-md">
-                                            <a href="single-news-1.html">إسكان البنك الأهلي يبدأ تنمية 74 فدانا بالعاصمة الإدارية </a>
-                                        </h3>
-                                        <p>تعتزم الجمعية التعاونية لإسكان العاملين فى البنك الأهلى المصرى تنفيذ مشروعات
-                                              ...
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="media mb-30 media-none--sm">
-                                    <div class="position-relative width-40">
-                                        <a href="single-news-1.html" class="img-opacity-hover">
-                                            <img src="img/news/iskan/iskan3.jpg" alt="news" class="img-fluid h-iskan-s">
-                                        </a>
-                                       
-                                    </div>
-                                    <div class="media-body p-mb-none-child media-margin30">
-                                        <div class="post-date-dark">
-                                            <ul>
-                                                
-                                                <li>
-                                                    <span>
-                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                    </span>12 يناير 2020</li>
-                                            </ul>
-                                        </div>
-                                        <h3 class="title-semibold-dark size-lg mb-15 mb5-md">
-                                            <a href="single-news-1.html">إسكان البنك الأهلي يبدأ تنمية 74 فدانا بالعاصمة الإدارية </a>
-                                        </h3>
-                                        <p>تعتزم الجمعية التعاونية لإسكان العاملين فى البنك الأهلى المصرى تنفيذ مشروعات
-                                              ...
-                                        </p>
-                                    </div>
-                                </div>
-
-                               <div class="media mb-30 media-none--sm">
-                                    <div class="position-relative width-40">
-                                        <a href="single-news-1.html" class="img-opacity-hover">
-                                            <img src="img/news/iskan/iskan4.jpg" alt="news" class="img-fluid h-iskan-s" >
-                                        </a>
-                                       
-                                    </div>
-                                    <div class="media-body p-mb-none-child media-margin30">
-                                        <div class="post-date-dark">
-                                            <ul>
-                                                
-                                                <li>
-                                                    <span>
-                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                    </span>12 يناير 2020</li>
-                                            </ul>
-                                        </div>
-                                        <h3 class="title-semibold-dark size-lg mb-15 mb5-md">
-                                            <a href="single-news-1.html">إسكان البنك الأهلي يبدأ تنمية 74 فدانا بالعاصمة الإدارية </a>
-                                        </h3>
-                                        <p>تعتزم الجمعية التعاونية لإسكان العاملين فى البنك الأهلى المصرى تنفيذ مشروعات
-                                              ...
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="ne-sidebar sidebar-break-md col-lg-4 col-md-12">       
-                             <!--ad start here-->
-                             <div class="sidebar-box">
-                                <div class="ne-banner-layout1 text-center">
-                                    <a href="#">
-                                        <img src="img/banner/ad-oppo.jpg" alt="ad" class="img-fluid med-rectangle">
-                                    </a>
-                                </div>
-                            </div>
-                             <!--ad end here-->
-
-
-                            <div class="sidebar-box text-center ">
-                                    <ul class="btn-tab  block-xs nav nav-tabs  d-flex mb-10" role="tablist">
-                                        <li class="nav-item" style="flex: 1;">
-                                            <a href="#recent1" data-toggle="tab" aria-expanded="true" class="active">أسعار الذهب</a>
-                                        </li>
-                                        <li class="nav-item" style="flex: 1;">
-                                            <a href="#popular1" data-toggle="tab" aria-expanded="false"> أسعار الخضار </a>
-                                        </li>
-                                        <li class="nav-item" style="flex: 1;">
-                                            <a href="#common1" data-toggle="tab" aria-expanded="false">أسعار اللحوم</a>
-                                        </li>
-                                    </ul>
-                                    <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane fade active show" id="recent1">             
-                                                <div class="sidebar-box">
-                                                    <div class="ne-banner-layout1 ">
-                                                        <a href="#">
-                                                            <img src="img/banner/info-gold.jpg" alt="ad" class="img-fluid w-info">
-                                                        </a>
-                                                    </div>
-                                                </div>                                                 
-                                        </div>
-
-                                        <div role="tabpanel" class="tab-pane fade" id="popular1">
-                                                    <div class="sidebar-box">
-                                                        <div class="ne-banner-layout1 text-center">
-                                                            <a href="#">
-                                                                <img src="img/banner/info-veg.jpg" alt="ad" class="img-fluid w-info">
-                                                            </a>
-                                                        </div>
-                                                    </div>                 
-                                        </div>
-
-                                        <div role="tabpanel" class="tab-pane fade" id="common1">
-                                                <div class="">
-                                                    <div class="sidebar-box">
-                                                        <div class="ne-banner-layout1 text-center">
-                                                            <a href="#">
-                                                                <img src="img/banner/info-meat.jpg" alt="ad" class="img-fluid w-info">
-                                                            </a>
-                                                        </div>
-                                                    </div>           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--ad start here-->
-                            <div class="sidebar-box">
-                                <div class="ne-banner-layout1 text-center">
-                                    <a href="#">
-                                        <img src="img/banner/ad-post.jpg" alt="ad" class="img-fluid med-rectangle">
-                                    </a>
-                                </div>
-                            </div>
-                             <!--ad end here-->
-
-
-                        
-                    </div>
-                </div>
-                </div>
-            </section>
-            <!-- اسكان وعقارات  Area End Here -->
-
-
-
-            <!-- اخترنا لك  Area Start Here -->
-            <section class="container">
-                <div class=" bg-secondary-foru  section-space-default4">
-                    <div class="row ">
-                        <div class="col-12">
-                            <div class="topic-border color-scampi2 mb-20 width-100">
-                                <div class="topic-box-lg color-scampi2" ><i class="fa fa-thumbs-up" ></i>   إختـرنـا لـك</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ne-carousel nav-control-top2 color-cod-gray" data-loop="true" data-items="4" data-margin="30" data-autoplay="true"
-                        data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="false" data-nav="true" data-nav-speed="false"
-                        data-r-x-small="1" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="2" data-r-x-medium-nav="true"
-                        data-r-x-medium-dots="false" data-r-small="2" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="3"
-                        data-r-medium-nav="true" data-r-medium-dots="false" data-r-Large="4" data-r-Large-nav="true" data-r-Large-dots="false">
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/auto/tech2.jpg" alt="news" class="img-fluid h-report">
-                               
-                            </div>
-                            <div class="bg-gray2 item-shadow-gray box-padding30 h-report-p">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">تأجيل جديد لقانون زواج الأطفال </a>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/fnoon/shereen.jpg" alt="news" class="img-fluid h-report">
-                                
-                            </div>
-                            <div class="bg-gray2 item-shadow-gray box-padding30 h-report-p">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">سفير الصين يكذب صور التعذيب المنتشرة علي السوشيال ميديا</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/sport/salah2.jpg" alt="news" class="img-fluid h-report">
-                                
-                            </div>
-                            <div class="bg-gray2 item-shadow-gray box-padding30">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">النواب يوافق علي التعديلات الجديدة بشأن مخالفات البناء</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="hover-show-play-btn item-shadow-gray mb-1">
-                            <div class="img-overlay-70">
-                                
-                                <img src="img/news/world/world2.jpg" alt="news" class="img-fluid h-report">
-                                
-                            </div>
-                            <div class="bg-gray2 item-shadow-gray box-padding30 h-report-p">
-                                <div class="post-date-dark">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </span>5 يناير 2020</li>
-                                    </ul>
-                                </div>
-                                <h3 class="title-medium-dark">
-                                    <a href="single-news-3.html">  تطهير محافظة الاسماعيلية من المخلفات</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- تقارير وتحقيقات  Area End Here -->
-
-
-            <!-- العاصمة الادارية Area Start Here 
-            <section class="container" >
-                <div >
-                    <div class="item-box-dark-md-less30 ne-isotope" style="background-image: url(./img/news/iskan/iskan3asema.jpg); background-repeat: no-repeat;">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="topic-border color-white mb-30">
-                                    <div class="topic-box-lg color-white">العاصمة الإدارية الجديدة</div>
-                                    <div class="isotope-classes-tab isotop-btn-light">
-                                        <a href="#" data-filter=".action" class="current">أخبار العاصمة</a>
-                                        <a href="#" data-filter=".racing">أحياء العاصمة</a>
-                                        <a href="#" data-filter=".boxing">شقق العاصمة</a>
-                                    </div>
-                                    <div class="more-info-link-light">
-                                        <a href="post-style-1.html">المزيد
-                                            <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="featuredContainer">
-                            <div class="row action">
-                                <div class="col-xl-4 col-lg-7 col-md-12 mb-30">
-                                    <div class="img-overlay-70 img-scale-animate">
-                                        <img src="img/news/news205.jpg" alt="news" class="img-fluid width-100">
-                                        <div class="topic-box-top-sm">
-                                            <div class="topic-box-sm color-cinnabar mb-20">أخبار</div>
-                                        </div>
-                                        <div class="mask-content-xs">
-                                            <div class="post-date-light">
-                                                <ul>
-                                                    
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="title-medium-light size-lg">
-                                                <a href="single-news-1.html">مستشار رئيس الوزراء : سيتم نقل الوزارات الي العاصمة الإدارية الجديدة في 2020...</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8 col-lg-5 col-md-12">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">العاصمة الإدارية تفتح أبوابها للعالم 2020</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">العاصمة الإدارية تفتح أبوابها للعالم 2020</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">العاصمة الإدارية تفتح أبوابها للعالم 2020</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">العاصمة الإدارية تفتح أبوابها للعالم 2020</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">العاصمة الإدارية تفتح أبوابها للعالم 2020</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">العاصمة الإدارية تفتح أبوابها للعالم 2020</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row racing">
-                                <div class="col-xl-4 col-lg-7 col-md-12 mb-30">
-                                    <div class="img-overlay-70 img-scale-animate">
-                                        <img src="img/news/news212.jpg" alt="news" class="img-fluid width-100">
-                                        <div class="topic-box-top-sm">
-                                            <div class="topic-box-sm color-cinnabar mb-20">أحياء</div>
-                                        </div>
-                                        <div class="mask-content-xs">
-                                            <div class="post-date-light">
-                                                <ul>
-                                                    
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="title-medium-light size-lg">
-                                                <a href="single-news-1.html">كل ما تريد معرفته عن أحياء العاصمة الإدارية الجديدة...</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8 col-lg-5 col-md-12">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">5 أحياء خاصة بالدبلوماسيين والوزراء ورجال الأعمال</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">5 أحياء خاصة بالدبلوماسيين والوزراء ورجال الأعمال</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">5 أحياء خاصة بالدبلوماسيين والوزراء ورجال الأعمال</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">5 أحياء خاصة بالدبلوماسيين والوزراء ورجال الأعمال</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">5 أحياء خاصة بالدبلوماسيين والوزراء ورجال الأعمال</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">5 أحياء خاصة بالدبلوماسيين والوزراء ورجال الأعمال</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row boxing">
-                                <div class="col-xl-4 col-lg-7 col-md-12 mb-30">
-                                    <div class="img-overlay-70 img-scale-animate">
-                                        <img src="img/news/news213.jpg" alt="news" class="img-fluid width-100">
-                                        <div class="topic-box-top-sm">
-                                            <div class="topic-box-sm color-cinnabar mb-20">شقق</div>
-                                        </div>
-                                        <div class="mask-content-xs">
-                                            <div class="post-date-light">
-                                                <ul>
-                                                  
-                                                    <li>
-                                                        <span>
-                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>March 22, 2017</li>
-                                                </ul>
-                                            </div>
-                                            <h2 class="title-medium-light size-lg">
-                                                <a href="single-news-1.html">أسعار الشقق بالعاصمة الإدارية الجديدة لكل المستويات...</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-8 col-lg-5 col-md-12">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">تعرف علي أسعار الشقق بالتقسيط</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">تعرف علي أسعار الشقق بالتقسيط</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">تعرف علي أسعار الشقق بالتقسيط</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">تعرف علي أسعار الشقق بالتقسيط</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">تعرف علي أسعار الشقق بالتقسيط</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
-                                            <div class="position-relative mb-30">
-                                                <div class="img-scale-animate mb-15 img-overlay-70">
-                                                    <a href="single-news-1.html">
-                                                        <img src="img/news/news206.jpg" alt="news" class="img-fluid width-100">
-                                                    </a>
-                                                </div>
-                                               
-                                                <div class="post-date-light">
-                                                    <ul>
-                                                        <li>
-                                                            <span>
-                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                            </span>October 25, 2017</li>
-                                                    </ul>
-                                                </div>
-                                                <h3 class="title-medium-light size-md">
-                                                    <a href="single-news-1.html">تعرف علي أسعار الشقق بالتقسيط</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-             العاصمة الادارية Area End Here -->
 
            
             
             <!--  تكنولوجيا + أوتو  Area start Here -->
             <section class="container">
                 <div class="bg-body  box-layout ">
-                    <!--ad start here-->
-                    <div class="row">
-                            <div class="col-12">
-                                <div class="ne-banner-layout1 mt-20-r text-center ">
-                                    <a href="#">
-                                        <img src="img/banner/banner2.jpg" alt="ad" class="img-fluid">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--ad end here-->
+                   
                     <div class="row pdtop ">
                         <div class="col-lg-8 col-md-12 mb-30">
                             <div class="row">
@@ -4343,23 +2874,7 @@
                         </div>
                         
 
-                        <!-- اسعار السيارات start here-->
-                        <div class="ne-sidebar sidebar-break-md col-lg-4 col-md-12 ">
-                            <div class="sidebar-box ">
-                                <div class="topic-border color-ecstasy3 mb-10 pt-3">
-                                    <div class="topic-box-lg color-ecstasy3">أسعار السيارات اليوم </div>
-                                </div>
-                                <div class="ne-banner-layout1 text-center">
-                                    <a href="#">
-                                        <img src="img/news/auto/car6.jpg" alt="ad" class="img-fluid">
-                                    </a>
-                                </div>
-                            </div>
-
-                          
-                           
-                        </div>
-                       <!--تواصل معنا End here-->
+                   
                     </div>
                 </div>
             </section>
