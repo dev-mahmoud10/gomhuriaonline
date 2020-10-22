@@ -124,7 +124,7 @@
         wrapper.addClass('open').append(wrapMask);
         $this.addClass('open');
         $this.next('.menu-times').removeClass('close');
-        document.getElementById('offcanvas-body-wrapper').style.left = '0';
+        document.getElementById('offcanvas-body-wrapper').style.right = '0';
         return false;
     });
     $('#wrapper').on('click', '#side-menu-trigger a.menu-times', function (e) {

@@ -3026,7 +3026,6 @@ ul.header-social li a {
 }
 .offcanvas-menu-btn a.menu-bar {
   height: 30px;
-  position: absolute;
   top: -20px;
   display: block;
   right: -15px;
@@ -4113,6 +4112,9 @@ div#wrapper.open > .offcanvas-mask {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #a22222;
+  background-image: url(./img/n.png);
+  background-size: cover;
 }
 .mean-container .mean-bar .mobile-menu-nav-back:before {
   position: absolute;

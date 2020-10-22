@@ -49,6 +49,21 @@ body {
   padding: 7px 20px;
 }
 
+.offcanvas-menu-btn {/*offcanvas menu*/
+  margin-right: 0px !important;
+  top: 28px;
+  left: 20px;
+}
+
+.mean-container .mean-bar .mobile-menu-nav-back {
+  background-color: #a22222 !important;
+}
+
+.top-bar-top2 {
+  background-color: #111111 !important;
+  box-shadow: 0px 0px 0px #f57b7b;
+}
+
 .more-info-link a i {
   color: #d20808;
   border: 1px solid #dcdcdc;

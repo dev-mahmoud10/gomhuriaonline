@@ -21,13 +21,15 @@ body {
 }
 
 .mobile-menu-nav-back img{
-  width: 85px;
-  height: 33px;
+  width: 87px;
+  height: 38px;
 }
 .mobile-menu-nav-back::after{
-  content: url(./img/chairman.png);
-  padding-right: 160px;
-
+  content: url(./img/editors.png);
+  padding-right: 155px;
+}
+.offcanvas-menu-btn a.menu-bar{
+  padding-left: 15px;
 }
 .mean-container .mean-nav ul li a.mean-expand{
   right: 95px !important;
@@ -351,8 +353,8 @@ footer .footer-box ul.popular-categories li a{
 
 /*header 1*/
 .top-bar-top2 {
-background-color: #d20808;
-box-shadow: 0px 1px 1px black;
+background-color: black;
+box-shadow: 0px 0px 0px black;
 }
 .header-style5{
   position: relative;
@@ -403,9 +405,7 @@ ul.header-social {
   color: white;
   box-shadow: 0px 1px 1px black;
 }
-.dropdown-toggle::after{
-  margin-right: 5px;
-}
+
 
 /*nested dropdown menu*/
 .header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li > ul.nested {
