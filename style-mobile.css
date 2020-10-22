@@ -21,15 +21,18 @@ body {
 }
 
 .mobile-menu-nav-back img{
-  width: 87px;
-  height: 38px;
+  width: 83px;
+  height: 35px;
 }
 .mobile-menu-nav-back::after{
-  content: url(./img/editors.png);
-  padding-right: 155px;
+  content: url(./img/editors2.png);
+  padding-right: 140px;
+}
+.mean-container .mean-bar .meanmenu-reveal span {
+  background: #ad0404 !important;
 }
 .offcanvas-menu-btn a.menu-bar{
-  padding-left: 15px;
+  padding-left: 5px;
 }
 .mean-container .mean-nav ul li a.mean-expand{
   right: 95px !important;
