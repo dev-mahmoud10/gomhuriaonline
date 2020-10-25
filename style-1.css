@@ -51,8 +51,10 @@ body {
 
 .offcanvas-menu-btn {/*offcanvas menu*/
   margin-right: 0px !important;
-  top: 28px;
-  left: 20px;
+  top: 8px;
+}
+.offcanvas-btn-repoint{
+  width: 70px !important;
 }
 
 .mean-container .mean-bar .mobile-menu-nav-back {
@@ -176,7 +178,7 @@ body {
     right: 85.1%;
   }
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-    padding: 11px 18px !important;
+    padding: 11px 16px !important;
 }
  }
 
