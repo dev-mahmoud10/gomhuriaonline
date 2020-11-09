@@ -178,7 +178,7 @@ body {
     right: 85.1%;
   }
   .header-style5 .main-menu-area .ne-main-menu nav ul li a {
-    padding: 11px 16px !important;
+    padding: 10px 14px !important;
 }
  }
 
@@ -397,6 +397,7 @@ ul.header-social {
 .dropdown-toggle::after{
   margin-right: 5px;
 }
+
 
 /*nested dropdown menu*/
 .header-style5 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu li > ul.nested {
